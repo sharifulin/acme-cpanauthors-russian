@@ -1,0 +1,22 @@
+---
+name: Acme-CPANAuthors-Russian
+version: 0.02
+author:
+  - "Zoffix <'zoffix@cpan.org'>"
+abstract: We are Russian CPAN authors
+license: perl
+resources:
+  license: ~
+requires:
+  Acme::CPANAuthors: 0.06
+  Acme::CPANAuthors::Register: 0
+build_requires:
+  Test::More: 0
+provides:
+  Acme::CPANAuthors::Russian:
+    file: lib/Acme/CPANAuthors/Russian.pm
+    version: 0.02
+generated_by: Module::Build version 0.31012
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
