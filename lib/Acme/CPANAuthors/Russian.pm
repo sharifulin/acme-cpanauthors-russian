@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -15,8 +15,6 @@ use Acme::CPANAuthors::Register (
 	ALEXEYT   => 'Alexey Toptygin',
 	ALGDR     => 'Aleksandr Guidrevitch',
 	AMALTSEV  => 'Andrew Maltsev',
-	ANDREI    => 'Andrei Kozovski',
-	ANDREIN   => 'Andrei Nossov',
 	ANDY      => 'Andrew Shitov',
 	APLA      => 'Иван Бахчеев',
 	ARTO      => 'Artur Penttinen',
@@ -33,7 +31,6 @@ use Acme::CPANAuthors::Register (
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
 	DESPAIR   => 'Walery Studennikov',
-	DIMRUB    => 'Dmitry Rubinstein',
 	DMITRI    => 'Dmitri Tikhonov',
 	DMITRY    => 'Dmitry Nikolayev',
 	DMITRYSOL => 'Dmitri Sologoubenko',
@@ -43,14 +40,12 @@ use Acme::CPANAuthors::Register (
 	DZHARIY   => 'Дмитрий Жарий',
 	EGORSH    => 'Egor Shipovalov',
 	EJS       => 'Eugen Sobchenko',
-	ERIC      => 'Eric Andreychek',
 	FEDOROV   => 'Dmitry Fedorov',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
 	GLORYBOX  => 'Sergey Sinkovskiy',
 	GOSHA     => 'Okunev Igor',
 	GRAYKOT   => 'Sergey Kotenko',
-	GREGORY   => 'Gregory A. Rozanoff',
 	GRIAN     => 'Анатолий Гришаев',
 	GRISHACE  => 'Gregory Belenky',
 	GRUBER    => 'Anton Berezin',
@@ -59,15 +54,8 @@ use Acme::CPANAuthors::Register (
 	ICHUDOV   => 'Igor Chudov',
 	IFROL     => 'Иван Фролков',
 	IGORM     => 'Igor Myroshnichenko',
-	ILYA      => 'Ilya Etingof',
-	ILYALIT   => 'Ilya Lityuga',
-	ILYAM     => 'Ilya Martynov',
-	ILYAS     => 'Ilya Soldatkin',
-	ILYAVERL  => 'Ilya Verlinsky',
-	ILYAZ     => 'Ilya Zakharevich',
 	INEULANDE => 'Ivan Neulander',
 	ISTERIN   => 'Ilya Sterin',
-	IVAN      => 'Ivan Kohler',
 	KAPPA     => 'Алексей Капранов',
 	KARASIK   => 'Dmitry Karasik',
 	KES       => 'Eugen Konkov',
@@ -82,7 +70,6 @@ use Acme::CPANAuthors::Register (
 	LEXUS     => 'Usanov Alexey',
 	LIOL      => 'Lobanov Igor',
 	LOGVINON  => 'Nikolay Logvinov',
-	MADZ      => 'Michael Anton Dines Zedeler',
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
 	MBASOV    => 'Михаил В. Басов',
@@ -116,7 +103,6 @@ use Acme::CPANAuthors::Register (
 	SERGEY    => 'Sergey Gribov',
 	SERGEYCHE => 'Sergey Chernyshev',
 	SHARIFULN => 'Анатолий Шарифулин',
-	SHTATLAND => 'Timur Shtatland',
 	SKOLYCHEV => 'Sergey V. Kolychev',
 	SNEMAROV  => 'Sergei A. Nemarov',
 	SPECTRUM  => 'Черненко Эдуард Павлович',
@@ -137,7 +123,6 @@ use Acme::CPANAuthors::Register (
 	VIY       => 'Igor Yu. Vlasenko',
 	VKON      => 'Vadim Konovalov',
 	VLADB     => 'Vladimir Bogdanov',
-	VMS       => 'Victor Marcelo Santillan',
 	VOVKASM   => 'Vladimir Timofeev',
 	VTI       => 'Вячеслав Тихановский',
 	XFIRE     => 'Ilya Obshadko',
@@ -152,8 +137,6 @@ use Acme::CPANAuthors::Register (
 
 1;
 __END__
-
-=encoding UTF-8
 
 =head1 NAME
 
@@ -178,6 +161,8 @@ See documentation for L<Acme::CPANAuthors> for more details.
 
 This class provides a hash of Russian CPAN authors' PAUSE ID and name to
 the C<Acme::CPANAuthors> module.
+
+Now B<125> Russian CPAN authors.
 
 =head1 MAINTENANCE
 

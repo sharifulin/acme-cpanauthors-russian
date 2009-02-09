@@ -12,7 +12,7 @@ my $builder = Module::Build->new(
     },
     requires => {
         'Acme::CPANAuthors::Register' => 0,
-        'Acme::CPANAuthors'           => 0.06,
+        'Acme::CPANAuthors'           => 0,
     },
     add_to_cleanup      => [ 'Acme-CPANAuthors-Russian-*' ],
     create_makefile_pl => 'traditional',
