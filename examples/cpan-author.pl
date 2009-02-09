@@ -60,7 +60,7 @@ print
 	#~ map  { join("\t", grep { defined } @$_{'id', 'name', 'pause', 'author', 'email', 'url'}), "\n" }
 	
 	# exclude
-	grep { $_->{'pause'} !~ /^MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+	grep { $_->{'pause'} !~ /^ZAG|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
 	
 	grep {
 		my $name = $_->{'name'};

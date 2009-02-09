@@ -129,7 +129,6 @@ use Acme::CPANAuthors::Register (
 	YKAR      => 'Yuri Karaban',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
-	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
 	ZOFFIX    => 'Zoffix Znet',
 );
