@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -169,10 +169,6 @@ via email or RT so we can always keep this module up to date.
 And if you aren't a Russian CPAN author listed here, please send us your ID/name
 via email or RT and we will remove your name.
 
-=head1 SEE ALSO
-
-L<Acme::CPANAuthors> L<http://search.cpan.org/search?query=Acme%3A%3ACPANAuthors&mode=all>
-
 =head1 CONTAINED AUTHORS
 
 Now B<125> Russian CPAN authors:
@@ -301,6 +297,10 @@ Now B<125> Russian CPAN authors:
     YURAN     => 'Nevinitsin Yury',
     ZMIJ      => 'Sergei A. Fedorov',
     ZOFFIX    => 'Zoffix Znet'
+
+=head1 SEE ALSO
+
+L<Acme::CPANAuthors> L<http://search.cpan.org/search?query=Acme%3A%3ACPANAuthors&mode=all>
 
 =head1 AUTHOR
 
