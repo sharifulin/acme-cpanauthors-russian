@@ -1,0 +1,6 @@
+{
+          'Acme-CPANAuthors-Russian-0.03' => 1,
+          'Acme-CPANAuthors-Russian-*' => 1,
+          'pod2htm*' => 1,
+          'blib' => 1
+        }

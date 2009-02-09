@@ -1,0 +1,11 @@
+{
+          'build_requires' => {
+                                'Test::More' => 0
+                              },
+          'conflicts' => {},
+          'requires' => {
+                          'Acme::CPANAuthors' => 0,
+                          'Acme::CPANAuthors::Register' => 0
+                        },
+          'recommends' => {}
+        }
