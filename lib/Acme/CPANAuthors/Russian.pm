@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -135,6 +135,8 @@ use Acme::CPANAuthors::Register (
 
 1;
 __END__
+
+=encoding UTF-8
 
 =head1 NAME
 
