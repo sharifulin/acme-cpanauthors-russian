@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.05';
+our $VERSION = '0.1';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -135,8 +135,6 @@ use Acme::CPANAuthors::Register (
 
 1;
 __END__
-
-=encoding UTF-8
 
 =head1 NAME
 
@@ -350,6 +348,7 @@ L<http://search.cpan.org/dist/Acme-CPANAuthors-Russian>
 =head1 COPYRIGHT & LICENSE
 
 Copyright (C) 2008-2009 by Zoffix Znet.
+
 Copyright (C) 2009 by Anatoly Sharifulin.
 
 This program is free software; you can redistribute it and/or modify it
