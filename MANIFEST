@@ -4,7 +4,7 @@ MANIFEST
 README
 lib/Acme/CPANAuthors/Russian.pm
 examples/auth.pl
-examples/cpan-author.pl
+examples/fetch.pl
 t/00-load.t
 t/pod-coverage.t
 t/pod.t

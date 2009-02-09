@@ -171,7 +171,7 @@ via email or RT so we can always keep this module up to date.
 And if you aren't a Russian CPAN author listed here, please send us your ID/name
 via email or RT and we will remove your name.
 
-The script for fetch cpan authors you can see in the distributive I<examples/cpan-author.pl>.
+The script for fetch cpan authors you can see in the distributive I<examples/fetch.pl>.
 
 =head1 SEE ALSO
 
