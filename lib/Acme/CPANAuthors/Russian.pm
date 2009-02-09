@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -84,7 +84,6 @@ use Acme::CPANAuthors::Register (
 	OLEKO     => 'Oleg Kobyakovskiy',
 	OMEGA     => 'Десислав Каменов/Desislav Kamenov',
 	PANOLEX   => 'Олександр Панчук',
-	PLCGI     => 'Alex',
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
@@ -137,6 +136,8 @@ use Acme::CPANAuthors::Register (
 1;
 __END__
 
+=encoding UTF-8
+
 =head1 NAME
 
 Acme::CPANAuthors::Russian - We are Russian CPAN authors
@@ -171,7 +172,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<125> Russian CPAN authors:
+Now B<124> Russian CPAN authors:
 
     ABALAMA   => 'Lepenkov Sergey',
     ABEL      => 'Anton Belousov',
@@ -250,7 +251,6 @@ Now B<125> Russian CPAN authors:
     OLEKO     => 'Oleg Kobyakovskiy',
     OMEGA     => 'Десислав Каменов/Desislav Kamenov',
     PANOLEX   => 'Олександр Панчук',
-    PLCGI     => 'Alex',
     PLISCO    => 'Igor Plisco',
     PRO       => 'Oleg Alexeenkov',
     PSMIRNOV  => 'Pavel Smirnov',
