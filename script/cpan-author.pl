@@ -56,17 +56,17 @@ print
 		map  { sprintf "%-9s => '%s',\n", grep { defined } @$_{'pause', 'name'} }
 		sort { $a->{'pause'} cmp $b->{'pause'} }
 		
-		#~ # cpan author
-		#~ grep { $_->{'author'} }
+		# cpan author
+		grep { $_->{'author'} }
 		
-		# not cpan author, have pause id
-		grep {!$_->{'author'} }
+		#~ # not cpan author, have pause id
+		#~ grep {!$_->{'author'} }
 		
 		#~ # for list
 		#~ map  { join("\t", grep { defined } @$_{'id', 'name', 'pause', 'author', 'email', 'url'}), "\n" }
 		
 		# exclude
-		grep { $_->{'pause'} !~ /^YAKWOO|PLCGI|ZAG|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+		grep { $_->{'pause'} !~ /^YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
 		
 		grep {
 			my $name = $_->{'name'};
