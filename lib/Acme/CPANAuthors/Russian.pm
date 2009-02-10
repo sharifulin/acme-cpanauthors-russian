@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -172,7 +172,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<124> Russian CPAN authors:
+Now B<123> Russian CPAN authors:
 
     ABALAMA   => 'Lepenkov Sergey',
     ABEL      => 'Anton Belousov',
