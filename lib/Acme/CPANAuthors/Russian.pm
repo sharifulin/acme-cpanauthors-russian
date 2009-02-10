@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.4';
+our $VERSION = '0.5';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -300,7 +300,7 @@ Now B<124> Russian CPAN authors:
     ZMIJ      => 'Sergei A. Fedorov',
     ZOFFIX    => 'Zoffix Znet',
 
-And B<77> have PAUSE id, but they don't upload any module:
+And B<77> have PAUSE id, but they didn't upload any module:
 
     ADTIM     => 'Тимур Кондратьев',
     ALXPLDEV  => 'Kononov Alexey',
