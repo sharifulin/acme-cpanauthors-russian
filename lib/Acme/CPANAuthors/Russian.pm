@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.3';
+our $VERSION = '0.4';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -70,6 +70,7 @@ use Acme::CPANAuthors::Register (
 	LEXUS     => 'Usanov Alexey',
 	LIOL      => 'Lobanov Igor',
 	LOGVINON  => 'Nikolay Logvinov',
+	LONERR    => 'Oleg A. Mamontov',
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
 	MBASOV    => 'Михаил В. Басов',
@@ -172,7 +173,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<123> Russian CPAN authors:
+Now B<124> Russian CPAN authors:
 
     ABALAMA   => 'Lepenkov Sergey',
     ABEL      => 'Anton Belousov',
@@ -237,6 +238,7 @@ Now B<123> Russian CPAN authors:
     LEXUS     => 'Usanov Alexey',
     LIOL      => 'Lobanov Igor',
     LOGVINON  => 'Nikolay Logvinov',
+    LONERR    => 'Oleg A. Mamontov',
     MAKAROW   => 'Andrew V. Makarow',
     MAXICO    => 'Maxim Kashliak',
     MBASOV    => 'Михаил В. Басов',
@@ -296,11 +298,118 @@ Now B<123> Russian CPAN authors:
     YKOSTYLEV => 'Yuri Kostylev',
     YURAN     => 'Nevinitsin Yury',
     ZMIJ      => 'Sergei A. Fedorov',
-    ZOFFIX    => 'Zoffix Znet'
+    ZOFFIX    => 'Zoffix Znet',
+
+And B<77> have PAUSE id, but they don't upload any module:
+
+    ADTIM     => 'Тимур Кондратьев',
+    ALXPLDEV  => 'Kononov Alexey',
+    AMANOKHIN => 'Alexey E.Manokhin',
+    AMONARCH  => 'Kirill Frolov',
+    ASED      => 'Sedlak Anton',
+    AVOROBEY  => 'Anatoly Vorobey',
+    AZINGER   => 'Alexey Zinger',
+    BAT       => 'Тимур Бакеев',
+    BLINCHIK  => 'Vladislav',
+    BOR       => 'Sergey Borodich',
+    BURNASH   => 'Anton Burnashev',
+    CTAPUK    => 'Dmitriy Repin',
+    CUB       => 'Kostyuk Oleg',
+    DARKNOS   => 'Sergey Nosenko',
+    DENIS     => 'Денис Терещенко',
+    DEVIS     => 'Мусин Роман',
+    DIMMA     => 'Vadim Suvorov',
+    DIOGEN    => 'Vladimir Trushkin',
+    DIVER     => 'Максим Дуюнов',
+    DMA       => 'Dmitri Alenitchev',
+    DRINCHEV  => 'Ivan Drinchev',
+    DVRYABOY  => 'Dmitriy Ryaboy',
+    DZEMA     => 'Дмитрий Дзема',
+    GAMBURGER => 'Мякинин Тимур Алексеевич',
+    HELLMAN   => 'Yuri A. Kabaenkov',
+    HORD      => 'Denis S Chuprunov',
+    HRG       => 'Yury Kopyl',
+    IFOMICHEV => 'Ivan Fomichev',
+    IGSTAR    => 'Sergey Rybalko',
+    IHEFFNER  => 'Ivan Heffner',
+    IOK       => 'Igor Okunev',
+    IPECHORIN => 'Иван А. Печорин',
+    JAAN      => 'Иван Валентиныч Муравьёв',
+    JUPITER   => 'Ivan Ponomarev',
+    KAZIMIROV => 'Dmitry Kazimirov',
+    KIRILL    => 'Кирилл',
+    KOTEROFF  => 'Dmitry Koteroff',
+    KUDINOV   => 'Pavel Kudinov',
+    MADFROG   => 'Сергей Евстегнеев',
+    MARTYNOFF => 'Sergey Martynoff',
+    MARTYNOV  => 'Сергей Мартынов',
+    MAXX      => 'Suslov Maxim',
+    MINAKOV   => 'Vladimir Minakov',
+    MISAKA    => 'Mishka Gorodnitzky',
+    MMK       => 'Мартин Маринов',
+    MOTONAROL => 'Averyanov Ilya',
+    MYAKININ  => 'Timur Myakinin',
+    NAB       => 'Nickolay Briginets',
+    NUF       => 'Dmitry Smal',
+    OBOGREW   => 'Nikolay Kuznetsov',
+    OKOLOBOV  => 'Oleg Kolobov',
+    OLPA      => 'Oleg A. Paraschenko',
+    RAKESH    => 'Rakesh Alex',
+    RANDIR    => 'Sergey Aleynikov',
+    RANGER    => 'Alexey Stroganov',
+    SAPA      => 'Андрей Сапожников',
+    SAV       => 'Andrey Smorodin',
+    SCOUNDREL => 'Alexey Kovyrin',
+    SEZAY     => 'Sergei Zaytsev',
+    SHADOVV   => 'Victor M Elfimov',
+    SHV       => 'Sharypov Alexey',
+    SLEONOV   => 'Sergey Leonovich',
+    SOKOL     => 'Pavel Sokol',
+    SOVA      => 'Vladimir Sovetov',
+    SPR       => 'Сергей Пригожий',
+    STSAREV   => 'Sergei Tsarev',
+    TEAK      => 'Sergey Redin',
+    TECHCODE  => 'Aleksandar Petrović',
+    TED       => 'Ruslan (Ted) Kharitonov',
+    TMULEVICH => 'Sergey Tomoulevitch',
+    UJIN      => 'Зарецкий Евгений Петрович',
+    UNERA     => 'Dmitry E. Oboukhov',
+    VECTOR    => 'Andrey Mykhaylov',
+    VLADISLAV => 'Sergey',
+    VPOROSHIN => 'Vladimir Poroshin',
+    VVD       => 'Andrey Yakovlev',
+    ZHR       => 'Vladimir Zhirov',
 
 =head1 SEE ALSO
 
-L<Acme::CPANAuthors> L<http://search.cpan.org/search?query=Acme%3A%3ACPANAuthors&mode=all>
+=over 4
+
+=item * Base
+
+L<Acme::CPANAuthors> L<Acme::CPANAuthors::Register> L<Acme::CPANAuthors::Utils::Kwalitee>
+
+=item * Real
+
+L<Acme::CPANAuthors::Austrian> 
+L<Acme::CPANAuthors::Brazilian> 
+L<Acme::CPANAuthors::Canadian> 
+L<Acme::CPANAuthors::Chinese> 
+L<Acme::CPANAuthors::French> 
+L<Acme::CPANAuthors::Icelandic> 
+L<Acme::CPANAuthors::Israeli> 
+L<Acme::CPANAuthors::Italian> 
+L<Acme::CPANAuthors::Japanese> 
+L<Acme::CPANAuthors::Taiwanese>
+
+=item * Other
+
+L<Acme::CPANAuthors::Misanthrope> L<Acme::CPANAuthors::Not> L<Acme::CPANAuthors::GeekHouse> L<Acme::CPANAuthors::CodeRepos>
+
+=item * All
+
+L<http://search.cpan.org/search?query=Acme%3A%3ACPANAuthors&mode=all>
+
+=back
 
 =head1 AUTHOR
 
@@ -327,7 +436,7 @@ You can also look for information at:
 
 =item * Github
 
-http://github.com/sharifulin/acme-cpanauthors-russian/tree/master
+L<http://github.com/sharifulin/acme-cpanauthors-russian/tree/master>
 
 =item * RT: CPAN's request tracker
 
