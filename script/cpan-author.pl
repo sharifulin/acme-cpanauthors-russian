@@ -19,6 +19,7 @@ my $NAME = [
 	qr/Boris Sukholitko/,
 	qr/Denis \w+[oe]v\b/,
 	qr/Denis S/,
+	qr/(?:Evdokimov|Arapov) Denis/,
 	qr/Dmitr[iy]/,
 	qr/Egor/,
 	qr/Eugen Konkov/,
