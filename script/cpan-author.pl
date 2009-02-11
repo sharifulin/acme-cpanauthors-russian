@@ -11,6 +11,7 @@ my $NAME = [
 	qr/Alex Noso/,
 	qr/Alex Prota/,
 	qr/Alexe[iy]/,
+	qr/Aleksey/,
 	qr/Anatoly/,
 	qr/Andre[iy]/,
 	qr/Andrew (?:Maltsev|Shitov|V\. Ma)/,
@@ -58,11 +59,11 @@ print
 		map  { sprintf "%-9s => '%s',\n", grep { defined } @$_{'pause', 'name'} }
 		sort { $a->{'pause'} cmp $b->{'pause'} }
 		
-		# cpan author
-		grep { $_->{'author'} }
+		#~ # cpan author
+		#~ grep { $_->{'author'} }
 		
-		#~ # not cpan author, have pause id
-		#~ grep {!$_->{'author'} }
+		# not cpan author, have pause id
+		grep {!$_->{'author'} }
 		
 		#~ # for list
 		#~ map  { join("\t", grep { defined } @$_{'id', 'name', 'pause', 'author', 'email', 'url'}), "\n" }
