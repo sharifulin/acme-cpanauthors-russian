@@ -7,6 +7,7 @@ my $NAME = [
 	qr/Aleksandar/,
 	qr/Aleksandr Guidrevitch/,
 	qr/Alex$/,
+	qr/Alexander Lourier/,
 	qr/Alex Noso/,
 	qr/Alex Prota/,
 	qr/Alexe[iy]/,
