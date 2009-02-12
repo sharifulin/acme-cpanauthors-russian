@@ -60,10 +60,10 @@ print
 		sort { $a->{'pause'} cmp $b->{'pause'} }
 		
 		# cpan author
-		grep { $_->{'author'} }
+		#~ grep { $_->{'author'} }
 		
-		#~ # not cpan author, have pause id
-		#~ grep {!$_->{'author'} }
+		# not cpan author, have pause id
+		grep {!$_->{'author'} }
 		
 		#~ # for list
 		#~ map  { join("\t", grep { defined } @$_{'id', 'name', 'pause', 'author', 'email', 'url'}), "\n" }
