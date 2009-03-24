@@ -56,20 +56,33 @@ print
 	grep { warn scalar @$_ }
 	[
 		# for module
-		map  { sprintf "%-9s => '%s',\n", grep { defined } @$_{'pause', 'name'} }
+		map  { sprintf "%-9s => '%s' %s,\n", grep { defined } @$_{'pause', 'name', 'email'} }
 		sort { $a->{'pause'} cmp $b->{'pause'} }
 		
-		# cpan author
-		#~ grep { $_->{'author'} }
-		
-		# not cpan author, have pause id
-		grep {!$_->{'author'} }
-		
-		#~ # for list
+		# for list
 		#~ map  { join("\t", grep { defined } @$_{'id', 'name', 'pause', 'author', 'email', 'url'}), "\n" }
 		
-		# exclude
-		grep { $_->{'pause'} !~ /^YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+		# check email
+		#~ map  { qq{"$_->{'pause'}" $_->{'email'}\n} }
+		#~ grep { $_->{'email'} && $_->{'email'} !~ /CENSORED/ && $_->{'email'} !~ /\.ru$/ }
+		
+		#~ # cpan author
+		#~ grep { $_->{'author'} }
+		
+		#~ # not cpan author, have pause id
+		#~ grep {!$_->{'author'} }
+		
+		#~ # exclude
+		#~ grep { $_->{'pause'} !~ /^VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+		
+		#~ grep { $_->{'email'} !~ /ua$/ }
+		#~ grep { $_->{'email'} !~ /bg$/ }
+		#~ grep { $_->{'email'} !~ /by$/ }
+		#~ grep { $_->{'email'} !~ /ws$/ }
+		#~ grep { $_->{'email'} !~ /cz$/ }
+		
+		# ua
+		grep { $_->{'pause'} =~ /^VTI|GUGU|EJS|GRUBER|MVUETS$/ || $_->{'email'} =~ /ua$/ }
 		
 		grep {
 			my $name = $_->{'name'};

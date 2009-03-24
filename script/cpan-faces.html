@@ -1,0 +1,19 @@
+﻿<a href="http://search.cpan.org/~ABALAMA/"  title="Lepenkov Sergey"><img src="http://www.gravatar.com/avatar.php?gravatar_id=5c56d7503ca04745eea8de38d4a7e1eb"></a>
+<a href="http://search.cpan.org/~DZHARIY/"  title="Дмитрий Жарий"><img src="http://www.gravatar.com/avatar.php?gravatar_id=dca80eef8841ce608630fc40e0885ba2"></a>
+<a href="http://search.cpan.org/~IGORM/"  title="Igor Myroshnichenko"><img src="http://www.gravatar.com/avatar.php?gravatar_id=9e98d5d8293c776ecf89c5aebb116bdd"></a>
+<a href="http://search.cpan.org/~KARASIK/"  title="Dmitry Karasik"><img src="http://www.gravatar.com/avatar.php?gravatar_id=fd08bb86cd1578a89849c35d3ff06b09"></a>
+<a href="http://search.cpan.org/~KIRILLM/"  title="Кирилл Мязин"><img src="http://www.gravatar.com/avatar.php?gravatar_id=9e1312e82732ddc84c53cabd2ef975b4"></a>
+<a href="http://search.cpan.org/~MONS/"  title="Mons Anderson"><img src="http://www.gravatar.com/avatar.php?gravatar_id=c1a14e1edce4c98bf25b19b54fdf7878"></a>
+<a href="http://search.cpan.org/~NIKOLAY/"  title="Nikolay Bachiyski"><img src="http://www.gravatar.com/avatar.php?gravatar_id=75fb365927cb3f5f7b677682d6249406"></a>
+<a href="http://search.cpan.org/~SERGEYCHE/" title="Sergey Chernyshev"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2a4cb4a554529345c7309fb02598bc4c"></a>
+<a href="http://search.cpan.org/~SHARIFULN/"  title="Анатолий Шарифулин"><img src="http://www.gravatar.com/avatar.php?gravatar_id=71aabd7c0553dd548a49a09a0e4698ff"></a>
+<a href="http://search.cpan.org/~VANY/"  title="Ivan B. Serezhkin"><img src="http://www.gravatar.com/avatar.php?gravatar_id=6b648e94c1aba27f7a9dd6b423a7bd63"></a>
+<a href="http://search.cpan.org/~VOVKASM/"  title="Vladimir Timofeev"><img src="http://www.gravatar.com/avatar.php?gravatar_id=2ae79c1e7daf2d1ae488d7243b680e22"></a>
+<a href="http://search.cpan.org/~ZOFFIX/"  title="Zoffix Znet"><img src="http://www.gravatar.com/avatar.php?gravatar_id=22eb9de6a54be224cd14158ecc6bf134"></a>
+
+<br/>
+<br/>
+
+<pre>
+perl -MLWP::UserAgent -MAcme::CPANAuthors -l12 -e'$lwp=LWP::UserAgent->new('max_redirect' => 0); $a=Acme::CPANAuthors->new('Russian'); $lwp->get($a->avatar_url($_)."&default=http%3A%2F%2Fst.pimg.net%2Ftucs%2Fimg%2Fwho.png")->is_redirect ||  print join "\t", $_, $a->name($_), $a->avatar_url($_) for $a->id'
+</pre>
