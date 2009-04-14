@@ -56,7 +56,7 @@ print
 	grep { warn scalar @$_ }
 	[
 		# for module
-		map  { sprintf "%-9s => '%s' %s,\n", grep { defined } @$_{'pause', 'name', 'email'} }
+		map  { sprintf "%-9s => '%s',\n", grep { defined } @$_{'pause', 'name', 'email'} }
 		sort { $a->{'pause'} cmp $b->{'pause'} }
 		
 		# for list
@@ -70,10 +70,11 @@ print
 		grep { $_->{'author'} }
 		
 		#~ # not cpan author, have pause id
-		#~ grep {!$_->{'author'} }
+		# grep {!$_->{'author'} }
 		
-		# exclude
-		grep { $_->{'pause'} !~ /^VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+		# ru
+		grep { $_->{'pause'} eq 'STEALTHY' and $_->{'author'}=0; 1}
+		grep { $_->{'pause'} !~ /^DZHARIY|IHEFFNER|QUEVLAR|VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
 		
 		grep { $_->{'email'} !~ /ua$/ }
 		grep { $_->{'email'} !~ /bg$/ }
@@ -81,13 +82,17 @@ print
 		grep { $_->{'email'} !~ /ws$/ }
 		grep { $_->{'email'} !~ /cz$/ }
 		
-		#~ # ua
-		#~ grep { $_->{'pause'} =~ /^VTI|GUGU|EJS|GRUBER|MVUETS$/ || $_->{'email'} =~ /ua$/ }
+		# ua
+		# grep { $_->{'pause'} =~ /^VTI|GUGU|EJS|GRUBER|MVUETS|DARKNOS|DZHARIY$/ || $_->{'email'} =~ /ua$/ }
 		
 		grep {
-			my $name = $_->{'name'};
-			scalar grep { $name =~ /$_/ } @$NAME;
-		}
+				my $name = $_->{'name'};
+				scalar grep { $name =~ /$_/ } @$NAME;
+			}
+		
+		# no
+		# grep { $_->{pause} =~ /^SJN|MRAMBERG|KRN|ANDREMAR|TRONDMM|ARNE|EIDOLON|NICOMEN|COSIMO|AFF|ESPIZO$/ }
+		
 		map  {
 			my($url,  $name ) = $_->[ 1] =~ /<a href="([^"]+)">([^<]+)/; $name  ||= $_->[ 1]; $name =~ s/\s+$//; $name =~ s/&[^;]+;//sg;
 			my($url2, $pause) = $_->[-1] =~ /<a href="([^"]+)">([^<]+)/; $pause ||= $_->[-1];

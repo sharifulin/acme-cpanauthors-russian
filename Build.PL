@@ -17,7 +17,7 @@ my $builder = Module::Build->new(
         'Acme::CPANAuthors::Register' => 0,
         'Acme::CPANAuthors'           => 0,
     },
-    add_to_cleanup      => [ 'Acme-CPANAuthors-Russian-*' ],
+    add_to_cleanup      => [],
     create_makefile_pl => 'traditional',
 );
 

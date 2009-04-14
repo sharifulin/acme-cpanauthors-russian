@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.9';
+our $VERSION = '0.10';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -38,7 +38,6 @@ use Acme::CPANAuthors::Register (
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
-	DZHARIY   => 'Дмитрий Жарий',
 	FEDOROV   => 'Dmitry Fedorov',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
@@ -83,7 +82,6 @@ use Acme::CPANAuthors::Register (
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
-	QUEVLAR   => 'Igor Sanchez-Puls',
 	RADKOV    => 'Alexey Radkov',
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
@@ -163,7 +161,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<115> Russian CPAN authors:
+Now B<113> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -196,7 +194,6 @@ Now B<115> Russian CPAN authors:
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
-	DZHARIY   => 'Дмитрий Жарий',
 	FEDOROV   => 'Dmitry Fedorov',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
@@ -241,7 +238,6 @@ Now B<115> Russian CPAN authors:
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
-	QUEVLAR   => 'Igor Sanchez-Puls',
 	RADKOV    => 'Alexey Radkov',
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
@@ -281,7 +277,8 @@ Now B<115> Russian CPAN authors:
 	ZMIJ      => 'Sergei A. Fedorov',
 	ZOFFIX    => 'Zoffix Znet',
 
-And B<71> have PAUSE id, but they didn't upload any module:
+
+And B<74> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALXPLDEV  => 'Kononov Alexey',
@@ -344,6 +341,7 @@ And B<71> have PAUSE id, but they didn't upload any module:
 	SOKOL     => 'Pavel Sokol',
 	SOVA      => 'Vladimir Sovetov',
 	SPR       => 'Сергей Пригожий',
+	STEALTHY  => 'Oleg Nikitin',
 	STSAREV   => 'Sergei Tsarev',
 	TEAK      => 'Sergey Redin',
 	TECHCODE  => 'Aleksandar Petrović',
