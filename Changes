@@ -1,0 +1,40 @@
+Revision history for Acme-CPANAuthors-Russian
+
+0.11    April 20, 2009
+        113 authors and 73 pause ids.
+        Update Build.PL (thanks to chorny).
+        Change POD.
+
+0.10    April 14, 2009
+        113 authors and 74 pause ids
+
+0.9     March 24, 2009
+        116 authors and 71 pause ids
+
+0.8     February 12, 2009
+        128 authors and 78 pause ids
+
+0.6-0.7 February 11, 2009
+        126 authors
+
+0.4-0.5 February 11, 2009
+        124 authors and 77 pause ids
+
+0.3     February 10, 2009
+        123 authors
+
+0.2     February 9, 2009
+        124 authors
+
+0.0203  February 7, 2009
+        Added a lot of authors
+
+0.02    February 7, 2009
+        Added 140 authors, script for fetch
+
+0.0102  February 7, 2009
+        Added Anatoly Sharifulin
+
+0.0101  November 2, 2008
+        First version, released on an unsuspecting world.
+

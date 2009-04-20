@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -135,7 +135,7 @@ Acme::CPANAuthors::Russian - We are Russian CPAN authors
 
     use Acme::CPANAuthors;
 
-    my $authors  = Acme::CPANAuthors->new("Russian");
+    my $authors  = Acme::CPANAuthors->new('Russian');
 
     my $number   = $authors->count;
     my @ids      = $authors->id;
@@ -150,6 +150,7 @@ See documentation for L<Acme::CPANAuthors> for more details.
 
 This class provides a hash of Russian CPAN authors' PAUSE ID and name to
 the C<Acme::CPANAuthors> module.
+
 
 =head1 MAINTENANCE
 
@@ -278,7 +279,7 @@ Now B<113> Russian CPAN authors:
 	ZOFFIX    => 'Zoffix Znet',
 
 
-And B<74> have PAUSE id, but they didn't upload any module:
+And B<73> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALXPLDEV  => 'Kononov Alexey',
@@ -290,7 +291,6 @@ And B<74> have PAUSE id, but they didn't upload any module:
 	BLINCHIK  => 'Vladislav',
 	BURNASH   => 'Anton Burnashev',
 	CTAPUK    => 'Dmitriy Repin',
-	CUB       => 'Kostyuk Oleg',
 	DENIS     => 'Денис Терещенко',
 	DEVIS     => 'Мусин Роман',
 	DIMMA     => 'Vadim Suvorov',
@@ -305,7 +305,6 @@ And B<74> have PAUSE id, but they didn't upload any module:
 	HRG       => 'Yury Kopyl',
 	IFOMICHEV => 'Ivan Fomichev',
 	IGSTAR    => 'Sergey Rybalko',
-	IHEFFNER  => 'Ivan Heffner',
 	IOK       => 'Igor Okunev',
 	IPECHORIN => 'Иван А. Печорин',
 	JAAN      => 'Иван Валентиныч Муравьёв',
@@ -314,6 +313,7 @@ And B<74> have PAUSE id, but they didn't upload any module:
 	KIRILL    => 'Кирилл',
 	KOTEROFF  => 'Dmitry Koteroff',
 	KUDINOV   => 'Pavel Kudinov',
+	LINCHUS   => 'Sein Sergey',
 	MADFROG   => 'Сергей Евстегнеев',
 	MARTYNOFF => 'Sergey Martynoff',
 	MARTYNOV  => 'Сергей Мартынов',
@@ -330,6 +330,7 @@ And B<74> have PAUSE id, but they didn't upload any module:
 	RAKESH    => 'Rakesh Alex',
 	RANDIR    => 'Sergey Aleynikov',
 	RANGER    => 'Alexey Stroganov',
+	RASSIE    => 'Николай Прокошенко',
 	SAPA      => 'Андрей Сапожников',
 	SAV       => 'Andrey Smorodin',
 	SCOUNDREL => 'Alexey Kovyrin',
@@ -349,45 +350,119 @@ And B<74> have PAUSE id, but they didn't upload any module:
 	TMULEVICH => 'Sergey Tomoulevitch',
 	UJIN      => 'Зарецкий Евгений Петрович',
 	VLADISLAV => 'Sergey',
+	VMARCHEN  => 'Vladimir Marchenko',
 	VPOROSHIN => 'Vladimir Poroshin',
 	VVD       => 'Andrey Yakovlev',
 	ZHR       => 'Vladimir Zhirov',
 
 =head1 SEE ALSO
 
-=over 4
+=head2 Base
 
-=item * Base
+L<Acme::CPANAuthors>
+L<Acme::CPANAuthors::Register>
+L<Acme::CPANAuthors::Utils::Kwalitee>
 
-L<Acme::CPANAuthors>   L<Acme::CPANAuthors::Register>   L<Acme::CPANAuthors::Utils::Kwalitee>
+=head2 Real
 
-=item * Real
+=over 15
 
-L<Acme::CPANAuthors::Austrian>   
-L<Acme::CPANAuthors::Brazilian>   
-L<Acme::CPANAuthors::Canadian>   
-L<Acme::CPANAuthors::Chinese>   
-L<Acme::CPANAuthors::French>   
-L<Acme::CPANAuthors::Icelandic>   
-L<Acme::CPANAuthors::Israeli>   
-L<Acme::CPANAuthors::Italian>   
-L<Acme::CPANAuthors::Japanese>   
-L<Acme::CPANAuthors::Taiwanese>
+=item * L<Acme::CPANAuthors::Austrian>
 
-=item * Other
+We are Austrian CPAN authors
 
-L<Acme::CPANAuthors::Acme::CPANAuthors::Authors>   
-L<Acme::CPANAuthors::You::re_using>   
-L<Acme::CPANAuthors::Not>   
-L<Acme::CPANAuthors::Misanthrope>   
-L<Acme::CPANAuthors::GeekHouse>   
-L<Acme::CPANAuthors::CodeRepos>
+=item * L<Acme::CPANAuthors::Brazilian>
 
-=item * All
+We are Brazilian CPAN authors
+
+=item * L<Acme::CPANAuthors::Canadian>
+
+We are Austrian CPAN authors
+
+=item * L<Acme::CPANAuthors::Chinese>
+
+We are Canadian CPAN authors
+
+=item * L<Acme::CPANAuthors::French>
+
+We are French CPAN authors
+
+=item * L<Acme::CPANAuthors::Icelandic>
+
+We are Icelandic CPAN authors
+
+=item * L<Acme::CPANAuthors::Israeli>
+
+We are Israeli CPAN authors
+
+=item * L<Acme::CPANAuthors::Italian>
+
+We are Italian CPAN authors
+
+=item * L<Acme::CPANAuthors::Japanese>
+
+We are Japanese CPAN authors
+
+=item * L<Acme::CPANAuthors::Norwegian>
+
+We are Norwegian CPAN authors
+
+=item * L<Acme::CPANAuthors::Portuguese>
+
+We are the Portuguese CPAN authors
+
+=item * L<Acme::CPANAuthors::Russian>
+
+We are the Russian CPAN authors 
+
+=item * L<Acme::CPANAuthors::Taiwanese>
+
+We are the Taiwanese CPAN authors
+
+=item * L<Acme::CPANAuthors::Turkish>
+
+We are the Turkish CPAN authors
+
+=item * L<Acme::CPANAuthors::Ukrainian>
+
+We are the Ukrainian CPAN authors
+
+=back
+
+=head2 Fun and etc
+
+=over 6
+
+=item * L<Acme::CPANAuthors::Not>
+
+We are not CPAN authors
+
+=item * L<Acme::CPANAuthors::Acme::CPANAuthors::Authors>
+
+We are CPAN authors who have authored Acme::CPANAuthors modules
+
+=item * L<Acme::CPANAuthors::You::re_using>
+
+We are the CPAN authors that have written the modules installed on your perl!
+
+=item * L<Acme::CPANAuthors::GeekHouse>
+
+We're CPAN Authors in The Geek House
+
+=item * L<Acme::CPANAuthors::Misanthrope>
+
+The CPAN authors who see into your soul with perfect clarity. 
+
+=item * L<Acme::CPANAuthors::CodeRepos>
+
+We are CPAN authors using CodeRepos
+
+=back
+
+=head2 Search
 
 L<http://search.cpan.org/search?query=Acme%3A%3ACPANAuthors&mode=all>
 
-=back
 
 =head1 AUTHOR
 
