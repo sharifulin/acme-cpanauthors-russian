@@ -1,23 +1,28 @@
 ---
-name: Acme-CPANAuthors-Russian
-version: 0.10
+name: Acme-CPANAuthors-Ukrainian
+version: 0.1
 author:
   - 'Anatoly Sharifulin <sharifulin@gmail.com>'
-  - "Zoffix <'zoffix@cpan.org'>"
-abstract: We are Russian CPAN authors
+abstract: We are Ukrainian CPAN authors
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
+  repository: http://github.com/sharifulin/acme-cpanauthors-ukrainian/tree
 requires:
   Acme::CPANAuthors: 0
   Acme::CPANAuthors::Register: 0
+  perl: 5.006
 build_requires:
   Test::More: 0
 provides:
-  Acme::CPANAuthors::Russian:
-    file: lib/Acme/CPANAuthors/Russian.pm
-    version: 0.10
+  Acme::CPANAuthors::Ukrainian:
+    file: lib/Acme/CPANAuthors/Ukrainian.pm
+    version: 0.1
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
+keywords:
+  - CPAN
+  - CPAN authors
+  - Ukrainian

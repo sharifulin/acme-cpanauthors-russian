@@ -2,9 +2,7 @@ Build.PL
 Changes
 MANIFEST
 README
-lib/Acme/CPANAuthors/Russian.pm
-examples/auth.pl
-script/cpan-author.pl
+lib/Acme/CPANAuthors/Ukrainian.pm
 t/00-load.t
 t/pod-coverage.t
 t/pod.t
