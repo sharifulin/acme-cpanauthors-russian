@@ -1,6 +1,6 @@
 ---
 name: Acme-CPANAuthors-Russian
-version: 0.11
+version: 0.91
 author:
   - 'Anatoly Sharifulin <sharifulin@gmail.com>'
   - "Zoffix <'zoffix@cpan.org'>"
@@ -18,7 +18,7 @@ build_requires:
 provides:
   Acme::CPANAuthors::Russian:
     file: lib/Acme/CPANAuthors/Russian.pm
-    version: 0.11
+    version: 0.91
 generated_by: Module::Build version 0.280801
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

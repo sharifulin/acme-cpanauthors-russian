@@ -3,7 +3,7 @@ Changes
 MANIFEST
 README
 lib/Acme/CPANAuthors/Russian.pm
-examples/auth.pl
+examples/test.pl
 script/cpan-author.pl
 script/cpan-faces.pl
 t/00-load.t
