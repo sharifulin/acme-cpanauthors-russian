@@ -69,12 +69,12 @@ print
 		# cpan author
 		grep { $_->{'author'} }
 		
-		#~ # not cpan author, have pause id
+		# not cpan author, have pause id
 		# grep {!$_->{'author'} }
 		
 		# ru
 		grep { $_->{'pause'} eq 'STEALTHY' and $_->{'author'}=0; 1}
-		grep { $_->{'pause'} !~ /^CUB|DZHARIY|IHEFFNER|QUEVLAR|VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+		grep { $_->{'pause'} !~ /^SODASODA|CUB|DZHARIY|IHEFFNER|QUEVLAR|VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
 		
 		grep { $_->{'email'} !~ /ua$/ }
 		grep { $_->{'email'} !~ /bg$/ }
@@ -85,14 +85,15 @@ print
 		# ua
 		# grep { $_->{'pause'} =~ /^CUB|VTI|GUGU|EJS|GRUBER|MVUETS|DARKNOS|DZHARIY$/ || $_->{'email'} =~ /ua$/ }
 		
+		# cyrillic
 		grep {
-				my $name = $_->{'name'};
-				scalar grep { $name =~ /$_/ } @$NAME;
-			}
-		
+			my $name = $_->{'name'};
+			scalar grep { $name =~ /$_/ } @$NAME;
+		}
+	
 		# no
 		# grep { $_->{pause} !~ /^BDULFER$/ }
-		# grep { $_->{pause} =~ /^KJETIL|SJN|MRAMBERG|KRN|ANDREMAR|TRONDMM|ARNE|EIDOLON|NICOMEN|COSIMO|AFF|ESPIZO$/ || $_->{'email'} =~ /no$/ }
+		# grep { $_->{pause} =~ /^KIRILLM|KJETIL|SJN|MRAMBERG|KRN|ANDREMAR|TRONDMM|ARNE|EIDOLON|NICOMEN|COSIMO|AFF|ESPIZO$/ || $_->{'email'} =~ /no$/ }
 		
 		map  {
 			my($url,  $name ) = $_->[ 1] =~ /<a href="([^"]+)">([^<]+)/; $name  ||= $_->[ 1]; $name =~ s/\s+$//; $name =~ s/&[^;]+;//sg;
