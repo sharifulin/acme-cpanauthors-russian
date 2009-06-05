@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '0.91';
+our $VERSION = '0.92';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -38,6 +38,7 @@ use Acme::CPANAuthors::Register (
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
@@ -60,7 +61,7 @@ use Acme::CPANAuthors::Register (
 	KLIMKIN   => 'Alexey Klimkin',
 	KOTEROV   => 'Dmitry Koterov',
 	KPV       => 'Pavel V. Kaygorodov',
-	KSURI     => 'Aleksey Surikov',
+	KSURI     => 'Алексей Суриков',
 	KVENTIN   => 'Константин Матюхин',
 	LEO       => 'Черепанов Леонид',
 	LESV      => 'Suhanov Vadim',
@@ -83,12 +84,13 @@ use Acme::CPANAuthors::Register (
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
 	RADKOV    => 'Alexey Radkov',
+	RANDIR    => 'Sergey Aleynikov',
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
 	ROWAA     => 'Олег Rowaa[SR13] В. Волков',
 	RUDENKO   => 'Alexei Rudenko',
 	RUSAKOV   => 'Sergey Rusakov',
-	RUZ       => 'Ruslan U. Zakirov',
+	RUZ       => 'Руслан У. Закиров',
 	SAFRONOV  => 'Vladislav A. Safronov',
 	SASHA     => 'Alex Protasenko',
 	SAVA      => 'Сава Чанков',
@@ -96,6 +98,7 @@ use Acme::CPANAuthors::Register (
 	SERGEY    => 'Sergey Gribov',
 	SERGEYCHE => 'Sergey Chernyshev',
 	SHARIFULN => 'Анатолий Шарифулин',
+	SHV       => 'Sharypov Alexey',
 	SNEMAROV  => 'Sergei A. Nemarov',
 	SPECTRUM  => 'Черненко Эдуард Павлович',
 	STELLAR   => 'Andrei V. Shetuhin',
@@ -162,7 +165,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<113> Russian CPAN authors:
+Now B<116> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -195,6 +198,7 @@ Now B<113> Russian CPAN authors:
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
@@ -217,7 +221,7 @@ Now B<113> Russian CPAN authors:
 	KLIMKIN   => 'Alexey Klimkin',
 	KOTEROV   => 'Dmitry Koterov',
 	KPV       => 'Pavel V. Kaygorodov',
-	KSURI     => 'Aleksey Surikov',
+	KSURI     => 'Алексей Суриков',
 	KVENTIN   => 'Константин Матюхин',
 	LEO       => 'Черепанов Леонид',
 	LESV      => 'Suhanov Vadim',
@@ -240,12 +244,13 @@ Now B<113> Russian CPAN authors:
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
 	RADKOV    => 'Alexey Radkov',
+	RANDIR    => 'Sergey Aleynikov',
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
 	ROWAA     => 'Олег Rowaa[SR13] В. Волков',
 	RUDENKO   => 'Alexei Rudenko',
 	RUSAKOV   => 'Sergey Rusakov',
-	RUZ       => 'Ruslan U. Zakirov',
+	RUZ       => 'Руслан У. Закиров',
 	SAFRONOV  => 'Vladislav A. Safronov',
 	SASHA     => 'Alex Protasenko',
 	SAVA      => 'Сава Чанков',
@@ -253,6 +258,7 @@ Now B<113> Russian CPAN authors:
 	SERGEY    => 'Sergey Gribov',
 	SERGEYCHE => 'Sergey Chernyshev',
 	SHARIFULN => 'Анатолий Шарифулин',
+	SHV       => 'Sharypov Alexey',
 	SNEMAROV  => 'Sergei A. Nemarov',
 	SPECTRUM  => 'Черненко Эдуард Павлович',
 	STELLAR   => 'Andrei V. Shetuhin',
@@ -279,7 +285,7 @@ Now B<113> Russian CPAN authors:
 	ZOFFIX    => 'Zoffix Znet',
 
 
-And B<73> have PAUSE id, but they didn't upload any module:
+And B<79> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALXPLDEV  => 'Kononov Alexey',
@@ -288,8 +294,11 @@ And B<73> have PAUSE id, but they didn't upload any module:
 	AVOROBEY  => 'Anatoly Vorobey',
 	AZINGER   => 'Alexey Zinger',
 	BAT       => 'Тимур Бакеев',
+	BEGEMOTV  => 'Yury Adamov',
+	BESSARABV => 'Иван Бессарабов',
 	BLINCHIK  => 'Vladislav',
 	BURNASH   => 'Anton Burnashev',
+	CONO      => 'Varyanick I. Alex',
 	CTAPUK    => 'Dmitriy Repin',
 	DENIS     => 'Денис Терещенко',
 	DEVIS     => 'Мусин Роман',
@@ -298,7 +307,10 @@ And B<73> have PAUSE id, but they didn't upload any module:
 	DMA       => 'Dmitri Alenitchev',
 	DVRYABOY  => 'Dmitriy Ryaboy',
 	DZEMA     => 'Дмитрий Дзема',
+	FROLLER   => 'Александр Фролов',
 	GAMBURGER => 'Мякинин Тимур Алексеевич',
+	GERDLER   => 'Игорь Гердлер',
+	GNATYNA   => 'Александр А. Гнатына',
 	GREEN     => 'Evdokimov Denis',
 	HELLMAN   => 'Yuri A. Kabaenkov',
 	HORD      => 'Denis S Chuprunov',
@@ -315,6 +327,7 @@ And B<73> have PAUSE id, but they didn't upload any module:
 	KUDINOV   => 'Pavel Kudinov',
 	LINCHUS   => 'Sein Sergey',
 	MADFROG   => 'Сергей Евстегнеев',
+	MAILOMAN  => 'Alex',
 	MARTYNOFF => 'Sergey Martynoff',
 	MARTYNOV  => 'Сергей Мартынов',
 	MAXX      => 'Suslov Maxim',
@@ -324,11 +337,11 @@ And B<73> have PAUSE id, but they didn't upload any module:
 	MOTONAROL => 'Averyanov Ilya',
 	MYAKININ  => 'Timur Myakinin',
 	NAB       => 'Nickolay Briginets',
+	NPLATONOV => 'Nickolay Platonov',
 	OBOGREW   => 'Nikolay Kuznetsov',
 	OKOLOBOV  => 'Oleg Kolobov',
 	OLPA      => 'Oleg A. Paraschenko',
 	RAKESH    => 'Rakesh Alex',
-	RANDIR    => 'Sergey Aleynikov',
 	RANGER    => 'Alexey Stroganov',
 	RASSIE    => 'Николай Прокошенко',
 	SAPA      => 'Андрей Сапожников',
@@ -336,9 +349,8 @@ And B<73> have PAUSE id, but they didn't upload any module:
 	SCOUNDREL => 'Alexey Kovyrin',
 	SEZAY     => 'Sergei Zaytsev',
 	SHADOVV   => 'Victor M Elfimov',
-	SHV       => 'Sharypov Alexey',
+	SIMPLEX   => 'Andrey Rikov',
 	SLEONOV   => 'Sergey Leonovich',
-	SODASODA  => 'Ilya Soda',
 	SOKOL     => 'Pavel Sokol',
 	SOVA      => 'Vladimir Sovetov',
 	SPR       => 'Сергей Пригожий',
@@ -431,7 +443,7 @@ We are the Ukrainian CPAN authors
 
 =head2 Fun and etc
 
-=over 6
+=over 7
 
 =item * L<Acme::CPANAuthors::Not>
 
@@ -456,6 +468,10 @@ The CPAN authors who see into your soul with perfect clarity.
 =item * L<Acme::CPANAuthors::CodeRepos>
 
 We are CPAN authors using CodeRepos
+
+=item * L<Acme::CPANAuthors::POE>
+
+We are CPAN Authors of POE
 
 =back
 

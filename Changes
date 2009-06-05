@@ -1,5 +1,8 @@
 Revision history for Acme-CPANAuthors-Russian
 
+0.92  2009-06-05 11:17
+	116 authors and 79 pause ids
+
 0.91  2009-04-24 01:46
 	Add examples/test.pl
 	Update script/cpan-aurhor.pl

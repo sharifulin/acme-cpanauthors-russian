@@ -18,9 +18,10 @@ POE::Session->create(
 				my($id) = $a->avatar_url($_) =~ m{avatar/(.*)};
 				$_[KERNEL]->post(
 					'HTTP_CLIENT' => 'request', 'result',
-					GET("http://www.gravatar.com/avatar.php?gravatar_id=$id&default=http%3A%2F%2Fst.pimg.net%2Ftucs%2Fimg%2Fwho.png"),
+					GET(($id ? "http://www.gravatar.com/avatar.php?gravatar_id=$id" : $a->avatar_url($_)).'&default=http%3A%2F%2Fst.pimg.net%2Ftucs%2Fimg%2Fwho.png'),
 					$_
 				);
+				$_[HEAP]->{'count'}++;
 			}
 		},
 		result => sub {
@@ -28,8 +29,11 @@ POE::Session->create(
 			my $response = $_[ARG1]->[0];
 			
 			unless ($response->is_redirect) {
-				print qq{<a href="http://search.cpan.org/~$name/"  title="@{[$a->name($name)]}"><img src="@{[$a->avatar_url($name)]}"></a>\n};
+				# print qq{<a href="http://search.cpan.org/~$name/"  title="@{[$a->name($name)]}"><img src="@{[$a->avatar_url($name)]}"></a>\n};
+				warn qq({id => '$name', name => '@{[$a->name($name)]}', avatar => '@{[$a->avatar_url($name)]}'},\n);
 			}
+			
+			$_[KERNEL]->stop unless --$_[HEAP]->{'count'};
 		},
 	}
 );
