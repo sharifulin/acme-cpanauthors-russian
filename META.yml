@@ -1,6 +1,6 @@
 ---
 name: Acme-CPANAuthors-Russian
-version: 0.92
+version: 1.00
 author:
   - 'Anatoly Sharifulin <sharifulin@gmail.com>'
   - "Zoffix <'zoffix@cpan.org'>"
@@ -9,20 +9,22 @@ license: perl
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/sharifulin/acme-cpanauthors-russian/tree
+build_requires:
+  Test::More: 0
 requires:
   Acme::CPANAuthors: 0
   Acme::CPANAuthors::Register: 0
   perl: 5.006
-build_requires:
-  Test::More: 0
+configure_requires:
+  Module::Build: 0.35
 provides:
   Acme::CPANAuthors::Russian:
     file: lib/Acme/CPANAuthors/Russian.pm
-    version: 0.92
-generated_by: Module::Build version 0.280801
+    version: 1.00
+generated_by: Module::Build version 0.35
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 keywords:
   - CPAN
   - CPAN authors

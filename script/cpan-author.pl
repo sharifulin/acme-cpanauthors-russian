@@ -30,6 +30,7 @@ my $NAME = [
 	qr/Ilya/,
 	qr/Ivan/,
 	qr/Kirill/,
+	qr/Konstantin/,
 	qr/Maxim\b/,
 	qr/Mishka/,
 	qr/Mons Anderson/,
