@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -17,7 +17,6 @@ use Acme::CPANAuthors::Register (
 	AMALTSEV  => 'Andrew Maltsev',
 	AML       => 'Alexander Lourier',
 	ANDY      => 'Andrew Shitov',
-	APLA      => 'Иван Бахчеев',
 	ARTO      => 'Artur Penttinen',
 	ASVBR     => 'Alexey Sharafutdinov',
 	ATOURBIN  => 'Alexey Tourbin',
@@ -27,7 +26,6 @@ use Acme::CPANAuthors::Register (
 	BUTILW    => 'Ilya Butakov',
 	BWIZARD   => 'Arapov Denis',
 	CATONE    => 'Denis Pokataev',
-	CLEONTY   => 'Леонтий Чудинов',
 	DARKNOS   => 'Sergey Nosenko',
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
@@ -40,34 +38,28 @@ use Acme::CPANAuthors::Register (
 	DSAMZA    => 'Dmitry Sagaev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
-	FROLLER   => 'Александр Фролов',
+	FILIN     => 'Andrey  Chergik',
+	FLAMEY    => 'Irakliy Sunguryan',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
 	GLORYBOX  => 'Sergey Sinkovskiy',
 	GOSHA     => 'Okunev Igor',
 	GRAYKOT   => 'Sergey Kotenko',
-	GRIAN     => 'Анатолий Гришаев',
 	GRISHACE  => 'Gregory Belenky',
 	ICHE      => 'Ilya Chelpanov',
 	ICHUDOV   => 'Igor Chudov',
-	IFROL     => 'Иван Фролков',
 	IGORM     => 'Igor Myroshnichenko',
 	INEULANDE => 'Ivan Neulander',
 	ISTERIN   => 'Ilya Sterin',
 	IVSOKOLOV => 'Ivan Sokolov',
 	KAKADU    => 'Konstantin Kapitanov',
-	KAPPA     => 'Алексей Капранов',
 	KARASIK   => 'Dmitry Karasik',
 	KDOULEPOV => 'Konstantin Doulepov',
 	KES       => 'Eugen Konkov',
 	KEU       => 'Dmitry V. Kolvakh',
-	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
 	KOTEROV   => 'Dmitry Koterov',
 	KPV       => 'Pavel V. Kaygorodov',
-	KSURI     => 'Алексей Суриков',
-	KVENTIN   => 'Константин Матюхин',
-	LEO       => 'Черепанов Леонид',
 	LESV      => 'Suhanov Vadim',
 	LEXUS     => 'Usanov Alexey',
 	LIOL      => 'Lobanov Igor',
@@ -76,7 +68,6 @@ use Acme::CPANAuthors::Register (
 	LONERR    => 'Oleg A. Mamontov',
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
-	MBASOV    => 'Михаил В. Басов',
 	MIT       => 'Dmitriy Dontsov',
 	MONS      => 'Mons Anderson',
 	MPG       => 'Maxim  Grigoriev',
@@ -86,6 +77,7 @@ use Acme::CPANAuthors::Register (
 	NUF       => 'Dmitry Smal',
 	OLEGSHER  => 'Oleg Sher',
 	OLEKO     => 'Oleg Kobyakovskiy',
+	PIN       => 'Dmitri Popov',
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
@@ -93,42 +85,35 @@ use Acme::CPANAuthors::Register (
 	RANDIR    => 'Sergey Aleynikov',
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
-	ROWAA     => 'Олег Rowaa[SR13] В. Волков',
 	RUDENKO   => 'Alexei Rudenko',
 	RUSAKOV   => 'Sergey Rusakov',
-	RUZ       => 'Руслан У. Закиров',
 	SAFRONOV  => 'Vladislav A. Safronov',
 	SASHA     => 'Alex Protasenko',
-	SAVA      => 'Сава Чанков',
 	SERG      => 'Sergei Golubchik',
 	SERGEY    => 'Sergey Gribov',
 	SERGEYCHE => 'Sergey Chernyshev',
 	SHADOVV   => 'Victor M Elfimov',
-	SHARIFULN => 'Анатолий Шарифулин',
+	SHURIKO   => 'Alexander V. Alekseyenko',
 	SHV       => 'Sharypov Alexey',
 	SKORIKOV  => 'Alexey Skorikov',
 	SLEONOV   => 'Sergey Leonovich',
 	SLOBIN    => 'Sergey Lobin',
 	SNEMAROV  => 'Sergei A. Nemarov',
-	SPECTRUM  => 'Черненко Эдуард Павлович',
 	STELLAR   => 'Andrei V. Shetuhin',
 	SWAJ      => 'Alexey Semenoff',
-	SWINED    => 'Алексей Александров',
-	SYBER     => 'Олег Пронин',
-	SYP       => 'Станислав Пусеп',
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
 	UNERA     => 'Dmitry E. Oboukhov',
 	USTIANSKY => 'Vadim O. Ustiansky',
 	VAD       => 'Vadim Loginov',
-	VADIML    => 'Vadim Likhota (Вадим Лихота)',
+	VADIML    => 'Vadim Likhota ( )',
 	VANY      => 'Ivan B. Serezhkin',
-	VASILUS   => 'Василий Волошин',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
 	VLADB     => 'Vladimir Bogdanov',
 	VOVKASM   => 'Vladimir Timofeev',
+	WOWASURIN => 'Vladimir Surin',
 	XFIRE     => 'Ilya Obshadko',
 	YKAR      => 'Yuri Karaban',
 	YKOSTYLEV => 'Yuri Kostylev',
@@ -178,7 +163,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<129> Russian CPAN authors:
+Now B<114> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -190,7 +175,6 @@ Now B<129> Russian CPAN authors:
 	AMALTSEV  => 'Andrew Maltsev',
 	AML       => 'Alexander Lourier',
 	ANDY      => 'Andrew Shitov',
-	APLA      => 'Иван Бахчеев',
 	ARTO      => 'Artur Penttinen',
 	ASVBR     => 'Alexey Sharafutdinov',
 	ATOURBIN  => 'Alexey Tourbin',
@@ -200,7 +184,6 @@ Now B<129> Russian CPAN authors:
 	BUTILW    => 'Ilya Butakov',
 	BWIZARD   => 'Arapov Denis',
 	CATONE    => 'Denis Pokataev',
-	CLEONTY   => 'Леонтий Чудинов',
 	DARKNOS   => 'Sergey Nosenko',
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
@@ -213,34 +196,28 @@ Now B<129> Russian CPAN authors:
 	DSAMZA    => 'Dmitry Sagaev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
-	FROLLER   => 'Александр Фролов',
+	FILIN     => 'Andrey  Chergik',
+	FLAMEY    => 'Irakliy Sunguryan',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
 	GLORYBOX  => 'Sergey Sinkovskiy',
 	GOSHA     => 'Okunev Igor',
 	GRAYKOT   => 'Sergey Kotenko',
-	GRIAN     => 'Анатолий Гришаев',
 	GRISHACE  => 'Gregory Belenky',
 	ICHE      => 'Ilya Chelpanov',
 	ICHUDOV   => 'Igor Chudov',
-	IFROL     => 'Иван Фролков',
 	IGORM     => 'Igor Myroshnichenko',
 	INEULANDE => 'Ivan Neulander',
 	ISTERIN   => 'Ilya Sterin',
 	IVSOKOLOV => 'Ivan Sokolov',
 	KAKADU    => 'Konstantin Kapitanov',
-	KAPPA     => 'Алексей Капранов',
 	KARASIK   => 'Dmitry Karasik',
 	KDOULEPOV => 'Konstantin Doulepov',
 	KES       => 'Eugen Konkov',
 	KEU       => 'Dmitry V. Kolvakh',
-	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
 	KOTEROV   => 'Dmitry Koterov',
 	KPV       => 'Pavel V. Kaygorodov',
-	KSURI     => 'Алексей Суриков',
-	KVENTIN   => 'Константин Матюхин',
-	LEO       => 'Черепанов Леонид',
 	LESV      => 'Suhanov Vadim',
 	LEXUS     => 'Usanov Alexey',
 	LIOL      => 'Lobanov Igor',
@@ -249,7 +226,6 @@ Now B<129> Russian CPAN authors:
 	LONERR    => 'Oleg A. Mamontov',
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
-	MBASOV    => 'Михаил В. Басов',
 	MIT       => 'Dmitriy Dontsov',
 	MONS      => 'Mons Anderson',
 	MPG       => 'Maxim  Grigoriev',
@@ -259,6 +235,7 @@ Now B<129> Russian CPAN authors:
 	NUF       => 'Dmitry Smal',
 	OLEGSHER  => 'Oleg Sher',
 	OLEKO     => 'Oleg Kobyakovskiy',
+	PIN       => 'Dmitri Popov',
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
 	PSMIRNOV  => 'Pavel Smirnov',
@@ -266,80 +243,62 @@ Now B<129> Russian CPAN authors:
 	RANDIR    => 'Sergey Aleynikov',
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
-	ROWAA     => 'Олег Rowaa[SR13] В. Волков',
 	RUDENKO   => 'Alexei Rudenko',
 	RUSAKOV   => 'Sergey Rusakov',
-	RUZ       => 'Руслан У. Закиров',
 	SAFRONOV  => 'Vladislav A. Safronov',
 	SASHA     => 'Alex Protasenko',
-	SAVA      => 'Сава Чанков',
 	SERG      => 'Sergei Golubchik',
 	SERGEY    => 'Sergey Gribov',
 	SERGEYCHE => 'Sergey Chernyshev',
 	SHADOVV   => 'Victor M Elfimov',
-	SHARIFULN => 'Анатолий Шарифулин',
+	SHURIKO   => 'Alexander V. Alekseyenko',
 	SHV       => 'Sharypov Alexey',
 	SKORIKOV  => 'Alexey Skorikov',
 	SLEONOV   => 'Sergey Leonovich',
 	SLOBIN    => 'Sergey Lobin',
 	SNEMAROV  => 'Sergei A. Nemarov',
-	SPECTRUM  => 'Черненко Эдуард Павлович',
 	STELLAR   => 'Andrei V. Shetuhin',
 	SWAJ      => 'Alexey Semenoff',
-	SWINED    => 'Алексей Александров',
-	SYBER     => 'Олег Пронин',
-	SYP       => 'Станислав Пусеп',
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
 	UNERA     => 'Dmitry E. Oboukhov',
 	USTIANSKY => 'Vadim O. Ustiansky',
 	VAD       => 'Vadim Loginov',
-	VADIML    => 'Vadim Likhota (Вадим Лихота)',
+	VADIML    => 'Vadim Likhota ( )',
 	VANY      => 'Ivan B. Serezhkin',
-	VASILUS   => 'Василий Волошин',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
 	VLADB     => 'Vladimir Bogdanov',
 	VOVKASM   => 'Vladimir Timofeev',
+	WOWASURIN => 'Vladimir Surin',
 	XFIRE     => 'Ilya Obshadko',
 	YKAR      => 'Yuri Karaban',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
-	ZOFFIX    => 'Zoffix Znet',
+	ZOFFIX    => 'Zoffix Znet'
 
-And B<86> have PAUSE id, but they didn't upload any module:
+And B<69> have PAUSE id, but they didn't upload any module:
 
-	ADTIM     => 'Тимур Кондратьев',
-	AGNISLAV  => 'Агнислав Онуфрийчук',
 	ALXPLDEV  => 'Kononov Alexey',
 	AMANOKHIN => 'Alexey E.Manokhin',
 	AMONARCH  => 'Kirill Frolov',
 	AVOROBEY  => 'Anatoly Vorobey',
 	AZINGER   => 'Alexey Zinger',
-	BAT       => 'Тимур Бакеев',
-	BEGEMOTV  => 'Yury Adamov',
-	BESSARABV => 'Иван Бессарабов',
 	BLINCHIK  => 'Vladislav',
 	BURNASH   => 'Anton Burnashev',
+	CCCP      => 'Sivirinov Ivan',
 	CONO      => 'Varyanick I. Alex',
 	CRUSOE    => 'Andrei V. Toutoukine',
 	CTAPUK    => 'Dmitriy Repin',
-	DENIS     => 'Денис Терещенко',
-	DEVIS     => 'Мусин Роман',
 	DIMMA     => 'Vadim Suvorov',
-	DIVER     => 'Максим Дуюнов',
 	DMA       => 'Dmitri Alenitchev',
 	DSHAP     => 'Dmitry Shapovalov',
 	DSOKOL    => 'Denis Sokolovsky',
 	DVRYABOY  => 'Dmitriy Ryaboy',
-	DZEMA     => 'Дмитрий Дзема',
 	FATCAT    => 'Sergey Taranchenko',
-	GAMBURGER => 'Мякинин Тимур Алексеевич',
-	GERDLER   => 'Игорь Гердлер',
-	GNATYNA   => 'Александр А. Гнатына',
 	GREEN     => 'Evdokimov Denis',
 	HELLMAN   => 'Yuri A. Kabaenkov',
 	HORD      => 'Denis S Chuprunov',
@@ -347,37 +306,31 @@ And B<86> have PAUSE id, but they didn't upload any module:
 	HSW       => 'Sergey Homenkow',
 	IFOMICHEV => 'Ivan Fomichev',
 	IGSTAR    => 'Sergey Rybalko',
-	IHRD      => 'Беликин Илья',
 	IOK       => 'Igor Okunev',
-	IPECHORIN => 'Иван А. Печорин',
-	JAAN      => 'Иван Валентиныч Муравьёв',
 	JUPITER   => 'Ivan Ponomarev',
 	KAZIMIROV => 'Dmitry Kazimirov',
-	KIRILL    => 'Кирилл',
 	KONSTANT  => 'Konstantin Antselovich',
 	KOT       => 'Konstantin Gerasimov',
 	KOTEROFF  => 'Dmitry Koteroff',
 	KUDINOV   => 'Pavel Kudinov',
 	LINCHUS   => 'Sein Sergey',
-	MADFROG   => 'Сергей Евстегнеев',
+	MAARD     => 'Maxim Yemelyanov',
 	MAILOMAN  => 'Alex',
 	MARTYNOFF => 'Sergey Martynoff',
-	MARTYNOV  => 'Сергей Мартынов',
 	MAXX      => 'Suslov Maxim',
 	MINAKOV   => 'Vladimir Minakov',
 	MISAKA    => 'Mishka Gorodnitzky',
-	MMK       => 'Мартин Маринов',
 	MOTONAROL => 'Averyanov Ilya',
+	MRGRIPH   => 'Dmitriy V. Simonov',
 	MYAKININ  => 'Timur Myakinin',
 	NAB       => 'Nickolay Briginets',
 	OBOGREW   => 'Nikolay Kuznetsov',
 	OKOLOBOV  => 'Oleg Kolobov',
 	OLPA      => 'Oleg A. Paraschenko',
+	PROPANOID => 'Vladimir Skvortsov',
 	RAKESH    => 'Rakesh Alex',
 	RANGER    => 'Alexey Stroganov',
-	RASSIE    => 'Николай Прокошенко',
 	RAWFLUX   => 'Alexey Rybenko',
-	SAPA      => 'Андрей Сапожников',
 	SAV       => 'Andrey Smorodin',
 	SCOUNDREL => 'Alexey Kovyrin',
 	SEZAY     => 'Sergei Zaytsev',
@@ -385,19 +338,19 @@ And B<86> have PAUSE id, but they didn't upload any module:
 	SIMPLEX   => 'Andrey Rikov',
 	SOKOL     => 'Pavel Sokol',
 	SOVA      => 'Vladimir Sovetov',
-	SPR       => 'Сергей Пригожий',
 	STEALTHY  => 'Oleg Nikitin',
 	STSAREV   => 'Sergei Tsarev',
 	TEAK      => 'Sergey Redin',
-	TECHCODE  => 'Aleksandar Petrović',
+	TECHCODE  => 'Aleksandar Petrovi',
 	TED       => 'Ruslan (Ted) Kharitonov',
-	UJIN      => 'Зарецкий Евгений Петрович',
 	VLADISLAV => 'Sergey',
 	VMARCHEN  => 'Vladimir Marchenko',
 	VPOROSHIN => 'Vladimir Poroshin',
 	VVD       => 'Andrey Yakovlev',
 	WEINERK   => 'Konstantin Weiner',
-	ZHR       => 'Vladimir Zhirov',
+	YSHTIL    => 'Yuri Shtil',
+	ZERO      => 'Oleg Alistratov',
+	ZHR       => 'Vladimir Zhirov'
 
 =head1 SEE ALSO
 
@@ -409,7 +362,7 @@ L<Acme::CPANAuthors::Utils::Kwalitee>
 
 =head2 Real
 
-=over 17
+=over 22
 
 =item * L<Acme::CPANAuthors::Arabic>
 
@@ -423,6 +376,10 @@ We are Austrian CPAN authors
 
 We are Brazilian CPAN authors
 
+=item * L<Acme::CPANAuthors::British> and L<Acme::CPANAuthors::British::Companies>
+
+We are British CPAN authors and British Companies with PAUSE IDs
+
 =item * L<Acme::CPANAuthors::Canadian>
 
 We are Austrian CPAN authors
@@ -430,6 +387,18 @@ We are Austrian CPAN authors
 =item * L<Acme::CPANAuthors::Chinese>
 
 We are Canadian CPAN authors
+
+=item * L<Acme::CPANAuthors::Dutch>
+
+Cheese heads and pot smokers
+
+=item * L<Acme::CPANAuthors::EU>
+
+EU CPAN authors: Austrian, French, German, Italian and Portuguese
+
+=item * L<Acme::CPANAuthors::European>
+
+European CPAN authors: Austrian, French, German, Icelandic, Italian, Norwegian, Portuguese, Russian, Turkish and Ukrainian
 
 =item * L<Acme::CPANAuthors::French>
 
@@ -442,6 +411,10 @@ We are German CPAN authors
 =item * L<Acme::CPANAuthors::Icelandic>
 
 We are Icelandic CPAN authors
+
+=item * L<Acme::CPANAuthors::Indonesian>
+
+We are Indonesian CPAN authors
 
 =item * L<Acme::CPANAuthors::Israeli>
 
@@ -483,7 +456,7 @@ We are the Ukrainian CPAN authors
 
 =head2 Fun and etc
 
-=over 8
+=over 10
 
 =item * L<Acme::CPANAuthors::Not>
 
@@ -493,9 +466,17 @@ We are not CPAN authors
 
 We are CPAN authors who have authored Acme::CPANAuthors modules
 
+=item * L<Acme::CPANAuthors::Pumpkings>
+
+We are pumpkings
+
 =item * L<Acme::CPANAuthors::You::re_using>
 
 We are the CPAN authors that have written the modules installed on your perl!
+
+=item * L<Acme::CPANAuthors::CPANTS::FiveOrMore>
+
+CPAN Authors with five or more dists
 
 =item * L<Acme::CPANAuthors::GeekHouse>
 
@@ -527,8 +508,6 @@ L<http://search.cpan.org/search?query=Acme%3A%3ACPANAuthors&mode=all>
 =head1 AUTHOR
 
 Anatoly Sharifulin, C<< <sharifulin at gmail.com> >>
-
-Zoffix Znet, C<< <'zoffix at cpan.org'> >>
 
 =head1 BUGS
 
@@ -574,7 +553,7 @@ L<http://search.cpan.org/dist/Acme-CPANAuthors-Russian>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2009 by Anatoly Sharifulin.
+Copyright (C) 2009-2010 by Anatoly Sharifulin.
 
 Copyright (C) 2008-2009 by Zoffix Znet.
 
