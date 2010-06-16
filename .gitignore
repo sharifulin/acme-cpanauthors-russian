@@ -2,3 +2,4 @@ Build
 Makefile
 _build
 *.tar.gz
+*.html

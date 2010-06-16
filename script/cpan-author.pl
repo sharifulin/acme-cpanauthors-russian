@@ -76,7 +76,7 @@ print
 		
 		# ru
 		grep { $_->{'pause'} eq 'STEALTHY' and $_->{'author'}=0; 1}
-		grep { $_->{'pause'} !~ /^ZWON|SODASODA|CUB|DZHARIY|IHEFFNER|QUEVLAR|VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
+		grep { $_->{'pause'} !~ /^AGNISLAV|ZERO|ZWON|SODASODA|CUB|DZHARIY|IHEFFNER|QUEVLAR|VTI|GUGU|EJS|GRUBER|EGORSH|MVUETS|BEROV|CYBER|NIKIP|TTOD|OMEGA|DRINCHEV|YAKWOO|PLCGI|MADZ|VMS|SHTATLAND|IVAN|ILYA|GREGORY|ERIC|DIMRUB|ANDREI|AXS|MOO|ICHLADIL|IZUT|IKETRIS|IVANS|ITUB|IVANWILLS|IVANWONG|PAVELH|INITDOTD|RUSSOZ$/ }
 		
 		grep { $_->{'email'} !~ /ua$/ }
 		grep { $_->{'email'} !~ /bg$/ }
@@ -85,7 +85,7 @@ print
 		grep { $_->{'email'} !~ /cz$/ }
 		
 		# ua
-		# grep { $_->{'pause'} =~ /^CUB|VTI|GUGU|EJS|GRUBER|MVUETS|DARKNOS|DZHARIY$/ || $_->{'email'} =~ /ua$/ }
+		# grep { $_->{'pause'} =~ /^ZERO|CUB|VTI|GUGU|EJS|GRUBER|MVUETS|DARKNOS|DZHARIY$/ || $_->{'email'} =~ /ua$/ }
 		
 		# cyrillic
 		grep {
@@ -115,12 +115,13 @@ print
 		}
 		map  { split m{\s*<br />\s*} }
 		grep { utf8::decode($_);1 }
-		map  { $_->is_success ? $_->content =~ m{Archives</a></h3>(.*)<h3><a id="mailinglists"}s : () }
-		LWPUserAgent->new('timeout' => 15)->get('http://pause.perl.org/pause/query?ACTION=who_is')
+		do { local $/; open my $fh, '<', 'get_utf8.html'; <$fh> } =~ m{Archives</a></h3>(.*)<h3><a id="mailinglists"}s
+		# map  { $_->is_success ? $_->content =~ m{Archives</a></h3>(.*)<h3><a id="mailinglists"}s : () }
+		# LWPUserAgent->new('timeout' => 15)->get('http://pause.perl.org/pause/query?ACTION=who_is')
 	]
 ;
 
-package LWPUserAgent; # for cache :)
+package LWPUserAgent; # XXX: bad UTF-8 encoding
 use strict;
 use base 'LWP::UserAgent';
 use constant {
