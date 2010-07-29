@@ -7,7 +7,7 @@ use strict;
 our $VERSION = '1.03';
 
 use Acme::CPANAuthors::Register (
-	BALAMA   => 'Lepenkov Sergey',
+	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
 	AKHOBOV   => 'Alexey Khobov',
 	AKIMOV    => 'Akimov Alexey',
@@ -201,7 +201,7 @@ via email or RT and we will remove your name.
 
 Now B<150> Russian CPAN authors:
 
-	BALAMA   => 'Lepenkov Sergey',
+	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
 	AKHOBOV   => 'Alexey Khobov',
 	AKIMOV    => 'Akimov Alexey',
