@@ -4,10 +4,10 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 use Acme::CPANAuthors::Register (
-	ABALAMA   => 'Lepenkov Sergey',
+	BALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
 	AKHOBOV   => 'Alexey Khobov',
 	AKIMOV    => 'Akimov Alexey',
@@ -57,6 +57,7 @@ use Acme::CPANAuthors::Register (
 	GRISHACE  => 'Gregory Belenky',
 	ICHE      => 'Ilya Chelpanov',
 	ICHUDOV   => 'Igor Chudov',
+	IFOMICHEV => 'Ivan Fomichev',
 	IFROL     => 'Иван Фролков',
 	IGORM     => 'Igor Myroshnichenko',
 	INEULANDE => 'Ivan Neulander',
@@ -72,6 +73,7 @@ use Acme::CPANAuthors::Register (
 	KEU       => 'Dmitry V. Kolvakh',
 	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
+	KOSTYA    => 'kostya',
 	KOTEROV   => 'Dmitry Koterov',
 	KPV       => 'Pavel V. Kaygorodov',
 	KSTEPME   => 'Konstantin Stepanov',
@@ -87,6 +89,7 @@ use Acme::CPANAuthors::Register (
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
 	MBASOV    => 'Михаил В. Басов',
+	MEPHIST   => 'Maxim Nikolenko',
 	MIT       => 'Dmitriy Dontsov',
 	MONS      => 'Mons Anderson',
 	MPG       => 'Maxim  Grigoriev',
@@ -196,9 +199,9 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<147> Russian CPAN authors:
+Now B<150> Russian CPAN authors:
 
-	ABALAMA   => 'Lepenkov Sergey',
+	BALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
 	AKHOBOV   => 'Alexey Khobov',
 	AKIMOV    => 'Akimov Alexey',
@@ -248,6 +251,7 @@ Now B<147> Russian CPAN authors:
 	GRISHACE  => 'Gregory Belenky',
 	ICHE      => 'Ilya Chelpanov',
 	ICHUDOV   => 'Igor Chudov',
+	IFOMICHEV => 'Ivan Fomichev',
 	IFROL     => 'Иван Фролков',
 	IGORM     => 'Igor Myroshnichenko',
 	INEULANDE => 'Ivan Neulander',
@@ -263,6 +267,7 @@ Now B<147> Russian CPAN authors:
 	KEU       => 'Dmitry V. Kolvakh',
 	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
+	KOSTYA    => 'kostya',
 	KOTEROV   => 'Dmitry Koterov',
 	KPV       => 'Pavel V. Kaygorodov',
 	KSTEPME   => 'Konstantin Stepanov',
@@ -278,6 +283,7 @@ Now B<147> Russian CPAN authors:
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
 	MBASOV    => 'Михаил В. Басов',
+	MEPHIST   => 'Maxim Nikolenko',
 	MIT       => 'Dmitriy Dontsov',
 	MONS      => 'Mons Anderson',
 	MPG       => 'Maxim  Grigoriev',
@@ -362,8 +368,10 @@ And B<101> have PAUSE id, but they didn't upload any module:
 	BLINCHIK  => 'Vladislav',
 	BURNASH   => 'Anton Burnashev',
 	CONO      => 'Varyanick I. Alex',
+	COOLMEN   => 'Александр Кузнецов',
 	CRUSOE    => 'Andrei V. Toutoukine',
 	CTAPUK    => 'Dmitriy Repin',
+	DEMIURG   => 'Алексей Вениаминович Мышкин',
 	DENIS     => 'Денис Терещенко',
 	DEVIS     => 'Мусин Роман',
 	DIMMA     => 'Vadim Suvorov',
@@ -384,7 +392,6 @@ And B<101> have PAUSE id, but they didn't upload any module:
 	HORD      => 'Denis S Chuprunov',
 	HRG       => 'Yury Kopyl',
 	HSW       => 'Sergey Homenkow',
-	IFOMICHEV => 'Ivan Fomichev',
 	IGSTAR    => 'Sergey Rybalko',
 	IHRD      => 'Беликин Илья',
 	IOK       => 'Igor Okunev',
@@ -394,7 +401,6 @@ And B<101> have PAUSE id, but they didn't upload any module:
 	KAZIMIROV => 'Dmitry Kazimirov',
 	KIRILL    => 'Кирилл',
 	KONSTANT  => 'Konstantin Antselovich',
-	KORSHAK   => 'Ярослав Коршак',
 	KOT       => 'Konstantin Gerasimov',
 	KOTEROFF  => 'Dmitry Koteroff',
 	KUDINOV   => 'Pavel Kudinov',
@@ -406,7 +412,6 @@ And B<101> have PAUSE id, but they didn't upload any module:
 	MARTYNOFF => 'Sergey Martynoff',
 	MARTYNOV  => 'Сергей Мартынов',
 	MAXX      => 'Suslov Maxim',
-	MEPHIST   => 'Maxim Nikolenko',
 	MINAKOV   => 'Vladimir Minakov',
 	MISAKA    => 'Mishka Gorodnitzky',
 	MMK       => 'Мартин Маринов',
@@ -447,8 +452,9 @@ And B<101> have PAUSE id, but they didn't upload any module:
 	VPOROSHIN => 'Vladimir Poroshin',
 	VVD       => 'Andrey Yakovlev',
 	WEINERK   => 'Konstantin Weiner',
+	YKO       => 'Ярослав Коршак',
 	YSHTIL    => 'Yuri Shtil',
-	ZHR       => 'Vladimir Zhirov',
+	ZHR       => 'Vladimir Zhirov'
 
 =head1 SEE ALSO
 
