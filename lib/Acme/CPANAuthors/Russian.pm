@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '1.04';
+our $VERSION = '1.05';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -12,6 +12,7 @@ use Acme::CPANAuthors::Register (
 	AKHOBOV   => 'Alexey Khobov',
 	AKIMOV    => 'Akimov Alexey',
 	AKR       => 'Alexey Kravchuk',
+	ALEXEVIL  => 'Alex',
 	ALEXEYT   => 'Alexey Toptygin',
 	ALGDR     => 'Aleksandr Guidrevitch',
 	AMALTSEV  => 'Andrew Maltsev',
@@ -25,6 +26,7 @@ use Acme::CPANAuthors::Register (
 	AVP       => 'Alexey V. Presnyakov',
 	AZJADFTRE => 'Павел Купцов',
 	BASHLOV   => 'Dmitry Bashlov',
+	BESSARABV => 'Иван Бессарабов',
 	BITTER    => 'Konstantin Vlasov',
 	BOSU      => 'Boris Sukholitko',
 	BUTILW    => 'Ilya Butakov',
@@ -57,6 +59,7 @@ use Acme::CPANAuthors::Register (
 	GRIAN     => 'Анатолий Гришаев',
 	GRISHACE  => 'Gregory Belenky',
 	HAWKMOON  => 'Dmitry Sukhanov',
+	HSW       => 'Sergey Homenkow',
 	ICHE      => 'Ilya Chelpanov',
 	ICHUDOV   => 'Igor Chudov',
 	IFOMICHEV => 'Ivan Fomichev',
@@ -91,7 +94,7 @@ use Acme::CPANAuthors::Register (
 	LESV      => 'Suhanov Vadim',
 	LEXUS     => 'Usanov Alexey',
 	LIOL      => 'Lobanov Igor',
-	LIOSHA    => 'Алексей Корабельщиков',
+	LIOSHA    => 'Aleksey Korabelshchikov',
 	LOGVINON  => 'Nikolay Logvinov',
 	LONERR    => 'Oleg A. Mamontov',
 	MAKAROW   => 'Andrew V. Makarow',
@@ -161,11 +164,12 @@ use Acme::CPANAuthors::Register (
 	WOWASURIN => 'Vladimir Surin',
 	XFIRE     => 'Ilya Obshadko',
 	YKAR      => 'Yuri Karaban',
+	YKO       => 'Ярослав Коршак',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
-	ZOFFIX    => 'Zoffix Znet',
+	ZOFFIX    => 'Zoffix Znet',ы
 );
 
 1;
@@ -208,13 +212,14 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<159> Russian CPAN authors:
+Now B<163> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
 	AKHOBOV   => 'Alexey Khobov',
 	AKIMOV    => 'Akimov Alexey',
 	AKR       => 'Alexey Kravchuk',
+	ALEXEVIL  => 'Alex',
 	ALEXEYT   => 'Alexey Toptygin',
 	ALGDR     => 'Aleksandr Guidrevitch',
 	AMALTSEV  => 'Andrew Maltsev',
@@ -228,6 +233,7 @@ Now B<159> Russian CPAN authors:
 	AVP       => 'Alexey V. Presnyakov',
 	AZJADFTRE => 'Павел Купцов',
 	BASHLOV   => 'Dmitry Bashlov',
+	BESSARABV => 'Иван Бессарабов',
 	BITTER    => 'Konstantin Vlasov',
 	BOSU      => 'Boris Sukholitko',
 	BUTILW    => 'Ilya Butakov',
@@ -260,6 +266,7 @@ Now B<159> Russian CPAN authors:
 	GRIAN     => 'Анатолий Гришаев',
 	GRISHACE  => 'Gregory Belenky',
 	HAWKMOON  => 'Dmitry Sukhanov',
+	HSW       => 'Sergey Homenkow',
 	ICHE      => 'Ilya Chelpanov',
 	ICHUDOV   => 'Igor Chudov',
 	IFOMICHEV => 'Ivan Fomichev',
@@ -294,7 +301,7 @@ Now B<159> Russian CPAN authors:
 	LESV      => 'Suhanov Vadim',
 	LEXUS     => 'Usanov Alexey',
 	LIOL      => 'Lobanov Igor',
-	LIOSHA    => 'Алексей Корабельщиков',
+	LIOSHA    => 'Aleksey Korabelshchikov',
 	LOGVINON  => 'Nikolay Logvinov',
 	LONERR    => 'Oleg A. Mamontov',
 	MAKAROW   => 'Andrew V. Makarow',
@@ -364,13 +371,14 @@ Now B<159> Russian CPAN authors:
 	WOWASURIN => 'Vladimir Surin',
 	XFIRE     => 'Ilya Obshadko',
 	YKAR      => 'Yuri Karaban',
+	YKO       => 'Ярослав Коршак',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
-	ZOFFIX    => 'Zoffix Znet'
+	ZOFFIX    => 'Zoffix Znet',
 
-And B<104> have PAUSE id, but they didn't upload any module:
+And B<106> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALBOVA    => 'Alexey Bovanenko',
@@ -379,11 +387,12 @@ And B<104> have PAUSE id, but they didn't upload any module:
 	AMONARCH  => 'Kirill Frolov',
 	ANDREY    => 'Andrey Kovbovich',
 	ANIO      => 'Ангел Колев',
+	AVKHOZOV  => 'Andrey Khozov',
 	AVOROBEY  => 'Anatoly Vorobey',
 	AZINGER   => 'Alexey Zinger',
 	BAT       => 'Тимур Бакеев',
-	BESSARABV => 'Иван Бессарабов',
 	BLINCHIK  => 'Vladislav',
+	BOCHAROV  => 'Бочаров Виктор',
 	BURNASH   => 'Anton Burnashev',
 	CONO      => 'Varyanick I. Alex',
 	COOLMEN   => 'Александр Кузнецов',
@@ -396,6 +405,7 @@ And B<104> have PAUSE id, but they didn't upload any module:
 	DIONYS    => 'Денис Ибаев',
 	DIVER     => 'Максим Дуюнов',
 	DMA       => 'Dmitri Alenitchev',
+	DRUXA     => 'Андрей Мищенко',
 	DSHAP     => 'Dmitry Shapovalov',
 	DSOKOL    => 'Denis Sokolovsky',
 	DVRYABOY  => 'Dmitriy Ryaboy',
@@ -409,7 +419,6 @@ And B<104> have PAUSE id, but they didn't upload any module:
 	HELLMAN   => 'Yuri A. Kabaenkov',
 	HORD      => 'Denis S Chuprunov',
 	HRG       => 'Yury Kopyl',
-	HSW       => 'Sergey Homenkow',
 	IGSTAR    => 'Sergey Rybalko',
 	IHRD      => 'Беликин Илья',
 	IOK       => 'Igor Okunev',
@@ -419,6 +428,7 @@ And B<104> have PAUSE id, but they didn't upload any module:
 	JAAN      => 'Иван Валентиныч Муравьёв',
 	JUPITER   => 'Ivan Ponomarev',
 	KAZIMIROV => 'Dmitry Kazimirov',
+	KHEDIN    => 'Konstantin S. Uvarin',
 	KIRILL    => 'Кирилл',
 	KONSTANT  => 'Konstantin Antselovich',
 	KOT       => 'Konstantin Gerasimov',
@@ -440,6 +450,7 @@ And B<104> have PAUSE id, but they didn't upload any module:
 	MYAKININ  => 'Timur Myakinin',
 	NAB       => 'Nickolay Briginets',
 	NIKOLAS   => 'Николай Шуляковский',
+	NIXUS     => 'Никита Зубков',
 	OBOGREW   => 'Nikolay Kuznetsov',
 	OKOLOBOV  => 'Oleg Kolobov',
 	OLPA      => 'Oleg A. Paraschenko',
@@ -473,7 +484,6 @@ And B<104> have PAUSE id, but they didn't upload any module:
 	VPOROSHIN => 'Vladimir Poroshin',
 	VVD       => 'Andrey Yakovlev',
 	WEINERK   => 'Konstantin Weiner',
-	YKO       => 'Ярослав Коршак',
 	YSHTIL    => 'Yuri Shtil',
 	ZHR       => 'Vladimir Zhirov'
 

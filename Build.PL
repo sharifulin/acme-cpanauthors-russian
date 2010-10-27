@@ -22,11 +22,7 @@ my $builder = Module::Build->new(
 		resources => {
 			repository => 'http://github.com/sharifulin/acme-cpanauthors-russian/tree',
 		},
-		keywords => [
-			'CPAN',
-			'CPAN authors',
-			'Russian'
-		],
+		keywords => [ 'CPAN', 'CPAN authors', 'Russian' ],
 	},
 	add_to_cleanup     => [],
 	create_makefile_pl => 'traditional',
