@@ -169,7 +169,7 @@ use Acme::CPANAuthors::Register (
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
-	ZOFFIX    => 'Zoffix Znet',ы
+	ZOFFIX    => 'Zoffix Znet',
 );
 
 1;
@@ -376,7 +376,7 @@ Now B<163> Russian CPAN authors:
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
-	ZOFFIX    => 'Zoffix Znet',
+	ZOFFIX    => 'Zoffix Znet'
 
 And B<106> have PAUSE id, but they didn't upload any module:
 
