@@ -51,6 +51,7 @@ my $NAME = [
 	qr/Zaha/,
 	qr/Zoffix/,
 	qr/Irakliy Sunguryan/,
+	qr/Daniil/,
 	
 	qr/[а-я]+/,
 ];
