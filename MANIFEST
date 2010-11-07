@@ -1,7 +1,7 @@
 Build.PL
 Changes
 MANIFEST
-README
+README.pod
 lib/Acme/CPANAuthors/Russian.pm
 examples/test.pl
 script/cpan-author.pl
