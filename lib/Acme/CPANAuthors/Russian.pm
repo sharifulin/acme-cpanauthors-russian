@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '1.06';
+our $VERSION = '1.07';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -100,6 +100,7 @@ use Acme::CPANAuthors::Register (
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
 	MBASOV    => 'Михаил В. Басов',
+	MEETTYA   => 'Дмитрий Карпич',
 	MEPHIST   => 'Maxim Nikolenko',
 	MIT       => 'Dmitriy Dontsov',
 	MMCLERIC  => 'Vyacheslav Matjukhin',
@@ -165,7 +166,6 @@ use Acme::CPANAuthors::Register (
 	WOWASURIN => 'Vladimir Surin',
 	XFIRE     => 'Ilya Obshadko',
 	YKAR      => 'Yuri Karaban',
-	YKO       => 'Ярослав Коршак',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
@@ -373,7 +373,6 @@ Now B<164> Russian CPAN authors:
 	WOWASURIN => 'Vladimir Surin',
 	XFIRE     => 'Ilya Obshadko',
 	YKAR      => 'Yuri Karaban',
-	YKO       => 'Ярослав Коршак',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
 	ZAG       => 'Zahatski Aliaksandr',
