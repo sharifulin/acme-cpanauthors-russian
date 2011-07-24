@@ -21,6 +21,7 @@ use Acme::CPANAuthors::Register (
 	ANDY      => 'Andrew Shitov',
 	APLA      => 'Иван Бахчеев',
 	ARTO      => 'Artur Penttinen',
+	ASDEEVA   => 'Anastasiya Deeva',
 	ASVBR     => 'Alexey Sharafutdinov',
 	ATOURBIN  => 'Alexey Tourbin',
 	AVP       => 'Alexey V. Presnyakov',
@@ -213,7 +214,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<164> Russian CPAN authors:
+Now B<165> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -229,6 +230,7 @@ Now B<164> Russian CPAN authors:
 	ANDY      => 'Andrew Shitov',
 	APLA      => 'Иван Бахчеев',
 	ARTO      => 'Artur Penttinen',
+	ASDEEVA   => 'Anastasiya Deeva',
 	ASVBR     => 'Alexey Sharafutdinov',
 	ATOURBIN  => 'Alexey Tourbin',
 	AVP       => 'Alexey V. Presnyakov',
