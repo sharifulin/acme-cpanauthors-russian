@@ -3,15 +3,15 @@ require 5.006;
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'PL_FILES' => {},
-          'INSTALLDIRS' => 'site',
-          'NAME' => 'Acme::CPANAuthors::Russian',
-          'EXE_FILES' => [],
-          'VERSION_FROM' => 'lib/Acme/CPANAuthors/Russian.pm',
-          'PREREQ_PM' => {
-                           'Test::More' => 0,
-                           'Acme::CPANAuthors::Register' => 0,
-                           'Acme::CPANAuthors' => 0
-                         }
-        )
+  'NAME' => 'Acme::CPANAuthors::Russian',
+  'VERSION_FROM' => 'lib/Acme/CPANAuthors/Russian.pm',
+  'PREREQ_PM' => {
+                   'Acme::CPANAuthors' => 0,
+                   'Acme::CPANAuthors::Register' => 0,
+                   'Test::More' => 0
+                 },
+  'INSTALLDIRS' => 'site',
+  'EXE_FILES' => [],
+  'PL_FILES' => {}
+)
 ;
