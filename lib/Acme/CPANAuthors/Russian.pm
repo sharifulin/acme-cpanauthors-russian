@@ -40,6 +40,7 @@ use Acme::CPANAuthors::Register (
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
 	DESPAIR   => 'Walery Studennikov',
+	DIONYS    => 'Денис Ибаев',
 	DMITRI    => 'Dmitri Tikhonov',
 	DMITRY    => 'Dmitry Nikolayev',
 	DMITRYNOD => 'Дмитрий Константинов',
@@ -214,7 +215,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<165> Russian CPAN authors:
+Now B<166> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -249,6 +250,7 @@ Now B<165> Russian CPAN authors:
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
 	DESPAIR   => 'Walery Studennikov',
+	DIONYS    => 'Денис Ибаев',
 	DMITRI    => 'Dmitri Tikhonov',
 	DMITRY    => 'Dmitry Nikolayev',
 	DMITRYNOD => 'Дмитрий Константинов',
@@ -381,7 +383,7 @@ Now B<165> Russian CPAN authors:
 	ZMIJ      => 'Sergei A. Fedorov',
 	ZOFFIX    => 'Zoffix Znet'
 
-And B<106> have PAUSE id, but they didn't upload any module:
+And B<105> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALBOVA    => 'Alexey Bovanenko',
@@ -405,7 +407,6 @@ And B<106> have PAUSE id, but they didn't upload any module:
 	DENIS     => 'Денис Терещенко',
 	DEVIS     => 'Мусин Роман',
 	DIMMA     => 'Vadim Suvorov',
-	DIONYS    => 'Денис Ибаев',
 	DIVER     => 'Максим Дуюнов',
 	DMA       => 'Dmitri Alenitchev',
 	DRUXA     => 'Андрей Мищенко',
