@@ -47,6 +47,7 @@ use Acme::CPANAuthors::Register (
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EAX       => 'Alexandr Alexeev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
@@ -214,7 +215,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<165> Russian CPAN authors:
+Now B<166> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -256,6 +257,7 @@ Now B<165> Russian CPAN authors:
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EAX       => 'Alexandr Alexeev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
