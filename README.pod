@@ -35,7 +35,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<165> Russian CPAN authors:
+Now B<166> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -70,6 +70,7 @@ Now B<165> Russian CPAN authors:
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
 	DESPAIR   => 'Walery Studennikov',
+	DIONYS    => 'Денис Ибаев',
 	DMITRI    => 'Dmitri Tikhonov',
 	DMITRY    => 'Dmitry Nikolayev',
 	DMITRYNOD => 'Дмитрий Константинов',
@@ -227,7 +228,6 @@ And B<106> have PAUSE id, but they didn't upload any module:
 	DENIS     => 'Денис Терещенко',
 	DEVIS     => 'Мусин Роман',
 	DIMMA     => 'Vadim Suvorov',
-	DIONYS    => 'Денис Ибаев',
 	DIVER     => 'Максим Дуюнов',
 	DMA       => 'Dmitri Alenitchev',
 	DRUXA     => 'Андрей Мищенко',
@@ -295,6 +295,7 @@ And B<106> have PAUSE id, but they didn't upload any module:
 	SOKOL     => 'Pavel Sokol',
 	SOVA      => 'Vladimir Sovetov',
 	SPR       => 'Сергей Пригожий',
+	SROMANOV  => 'Сергей Романов',
 	STEALTHY  => 'Oleg Nikitin',
 	STSAREV   => 'Sergei Tsarev',
 	SUHANOV   => 'Суханов Вячеслав',
