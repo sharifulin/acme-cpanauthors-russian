@@ -53,6 +53,7 @@ use Acme::CPANAuthors::Register (
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
 	FLAMEY    => 'Irakliy Sunguryan',
+	FOXCOOL   => 'Alexander Babenko',
 	FROLLER   => 'Александр Фролов',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
@@ -217,7 +218,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<167> Russian CPAN authors:
+Now B<168> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -265,6 +266,7 @@ Now B<167> Russian CPAN authors:
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
 	FLAMEY    => 'Irakliy Sunguryan',
+	FOXCOOL   => 'Alexander Babenko',
 	FROLLER   => 'Александр Фролов',
 	GARIEV    => 'Igor Gariev',
 	GDSL      => 'Sergey Skvortsov',
