@@ -4,7 +4,7 @@ use utf8; # encoding="utf-8"
 use warnings;
 use strict;
 
-our $VERSION = '1.07';
+our $VERSION = '1.09';
 
 use Acme::CPANAuthors::Register (
 	ABALAMA   => 'Lepenkov Sergey',
@@ -48,6 +48,7 @@ use Acme::CPANAuthors::Register (
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EAX       => 'Alexandr Alexeev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
@@ -160,6 +161,7 @@ use Acme::CPANAuthors::Register (
 	VADIML    => 'Vadim Likhota (Вадим Лихота)',
 	VANY      => 'Ivan B. Serezhkin',
 	VASILUS   => 'Василий Волошин',
+	VERESC    => 'Peter Vereshagin',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
 	VLADB     => 'Vladimir Bogdanov',
@@ -215,7 +217,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<166> Russian CPAN authors:
+Now B<167> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -258,6 +260,7 @@ Now B<166> Russian CPAN authors:
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EAX       => 'Alexandr Alexeev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
@@ -369,6 +372,7 @@ Now B<166> Russian CPAN authors:
 	VADIML    => 'Vadim Likhota (Вадим Лихота)',
 	VANY      => 'Ivan B. Serezhkin',
 	VASILUS   => 'Василий Волошин',
+	VERESC    => 'Peter Vereshagin',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
 	VLADB     => 'Vladimir Bogdanov',

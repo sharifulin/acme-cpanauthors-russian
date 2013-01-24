@@ -35,7 +35,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<166> Russian CPAN authors:
+Now B<167> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -190,6 +190,7 @@ Now B<166> Russian CPAN authors:
 	VADIML    => 'Vadim Likhota (Вадим Лихота)',
 	VANY      => 'Ivan B. Serezhkin',
 	VASILUS   => 'Василий Волошин',
+	VERESC    => 'Peter Vereshagin',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
 	VLADB     => 'Vladimir Bogdanov',
