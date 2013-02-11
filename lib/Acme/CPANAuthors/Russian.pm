@@ -156,6 +156,7 @@ use Acme::CPANAuthors::Register (
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
+	TPABA     => 'Daniel Podolsky',
 	UNERA     => 'Dmitry E. Oboukhov',
 	USTIANSKY => 'Vadim O. Ustiansky',
 	VAD       => 'Vadim Loginov',
@@ -218,7 +219,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<168> Russian CPAN authors:
+Now B<169> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -368,6 +369,7 @@ Now B<168> Russian CPAN authors:
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
+	TPABA     => 'Daniel Podolsky',
 	UNERA     => 'Dmitry E. Oboukhov',
 	USTIANSKY => 'Vadim O. Ustiansky',
 	VAD       => 'Vadim Loginov',
