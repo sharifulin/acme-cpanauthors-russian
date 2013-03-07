@@ -219,7 +219,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<169> Russian CPAN authors:
+Now B<170> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -318,6 +318,7 @@ Now B<169> Russian CPAN authors:
 	MAKAROW   => 'Andrew V. Makarow',
 	MAXICO    => 'Maxim Kashliak',
 	MBASOV    => 'Михаил В. Басов',
+	MEETTYA   => 'Дмитрий Карпич',
 	MEPHIST   => 'Maxim Nikolenko',
 	MIT       => 'Dmitriy Dontsov',
 	MMCLERIC  => 'Vyacheslav Matjukhin',
