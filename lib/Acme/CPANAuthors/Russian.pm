@@ -392,7 +392,7 @@ Now B<170> Russian CPAN authors:
 	ZMIJ      => 'Sergei A. Fedorov',
 	ZOFFIX    => 'Zoffix Znet'
 
-And B<105> have PAUSE id, but they didn't upload any module:
+And B<104> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALBOVA    => 'Alexey Bovanenko',
@@ -448,7 +448,6 @@ And B<105> have PAUSE id, but they didn't upload any module:
 	KOTEROFF  => 'Dmitry Koteroff',
 	KUDINOV   => 'Pavel Kudinov',
 	LINCHUS   => 'Sein Sergey',
-	LJUBEX    => 'Љубомир Самарџић',
 	MAARD     => 'Maxim Yemelyanov',
 	MADFROG   => 'Сергей Евстегнеев',
 	MAILOMAN  => 'Alex',
