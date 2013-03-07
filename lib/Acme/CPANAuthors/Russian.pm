@@ -146,6 +146,7 @@ use Acme::CPANAuthors::Register (
 	SLOBIN    => 'Sergey Lobin',
 	SNEMAROV  => 'Sergei A. Nemarov',
 	SPECTRUM  => 'Черненко Эдуард Павлович',
+	SROMANOV  => 'Сергей Романов',
 	STELLAR   => 'Andrei V. Shetuhin',
 	SWAJ      => 'Alexey Semenoff',
 	SWINED    => 'Алексей Александров',
@@ -174,7 +175,6 @@ use Acme::CPANAuthors::Register (
 	YKAR      => 'Yuri Karaban',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
-	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
 	ZOFFIX    => 'Zoffix Znet',
 );
@@ -359,6 +359,7 @@ Now B<169> Russian CPAN authors:
 	SLOBIN    => 'Sergey Lobin',
 	SNEMAROV  => 'Sergei A. Nemarov',
 	SPECTRUM  => 'Черненко Эдуард Павлович',
+	SROMANOV  => 'Сергей Романов',
 	STELLAR   => 'Andrei V. Shetuhin',
 	SWAJ      => 'Alexey Semenoff',
 	SWINED    => 'Алексей Александров',
@@ -387,11 +388,10 @@ Now B<169> Russian CPAN authors:
 	YKAR      => 'Yuri Karaban',
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
-	ZAG       => 'Zahatski Aliaksandr',
 	ZMIJ      => 'Sergei A. Fedorov',
 	ZOFFIX    => 'Zoffix Znet'
 
-And B<106> have PAUSE id, but they didn't upload any module:
+And B<105> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALBOVA    => 'Alexey Bovanenko',
@@ -482,7 +482,6 @@ And B<106> have PAUSE id, but they didn't upload any module:
 	SOKOL     => 'Pavel Sokol',
 	SOVA      => 'Vladimir Sovetov',
 	SPR       => 'Сергей Пригожий',
-	SROMANOV  => 'Сергей Романов',
 	STEALTHY  => 'Oleg Nikitin',
 	STSAREV   => 'Sergei Tsarev',
 	SUHANOV   => 'Суханов Вячеслав',
