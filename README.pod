@@ -78,6 +78,7 @@ Now B<170> Russian CPAN authors:
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
 	DSAMZA    => 'Dmitry Sagaev',
+	EAX       => 'Alexandr Alexeev',
 	EGOR      => 'Egor Korablev',
 	FEDOROV   => 'Dmitry Fedorov',
 	FILIN     => 'Andrey  Chergik',
