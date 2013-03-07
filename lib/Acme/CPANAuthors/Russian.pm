@@ -167,6 +167,7 @@ use Acme::CPANAuthors::Register (
 	VERESC    => 'Peter Vereshagin',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
+	VKRAMSKIH => 'Vitaly Kramskikh',
 	VLADB     => 'Vladimir Bogdanov',
 	VOVA      => 'Vladimir Kolpakov',
 	VOVKASM   => 'Vladimir Timofeev',
@@ -219,7 +220,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<170> Russian CPAN authors:
+Now B<171> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -381,6 +382,7 @@ Now B<170> Russian CPAN authors:
 	VERESC    => 'Peter Vereshagin',
 	VICTORI   => 'Victor Igumnov',
 	VKON      => 'Vadim Konovalov',
+	VKRAMSKIH => 'Vitaly Kramskikh',
 	VLADB     => 'Vladimir Bogdanov',
 	VOVA      => 'Vladimir Kolpakov',
 	VOVKASM   => 'Vladimir Timofeev',
