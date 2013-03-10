@@ -93,6 +93,7 @@ use Acme::CPANAuthors::Register (
 	KES       => 'Eugen Konkov',
 	KEU       => 'Dmitry V. Kolvakh',
 	KHEDIN    => 'Konstantin S. Uvarin',
+	KILORK    => 'Alexander Korolyoff',
 	KIRILL    => 'Кирилл',
 	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
@@ -130,6 +131,7 @@ use Acme::CPANAuthors::Register (
 	OLEGSHER  => 'Oleg Sher',
 	OLEKO     => 'Oleg Kobyakovskiy',
 	OLPA      => 'Oleg A. Paraschenko',
+	PERLOVER  => 'Perlover',
 	PIN       => 'Dmitri Popov',
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
@@ -235,7 +237,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<186> Russian CPAN authors:
+Now B<188> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -323,6 +325,7 @@ Now B<186> Russian CPAN authors:
 	KES       => 'Eugen Konkov',
 	KEU       => 'Dmitry V. Kolvakh',
 	KHEDIN    => 'Konstantin S. Uvarin',
+	KILORK    => 'Alexander Korolyoff',
 	KIRILL    => 'Кирилл',
 	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
@@ -360,6 +363,7 @@ Now B<186> Russian CPAN authors:
 	OLEGSHER  => 'Oleg Sher',
 	OLEKO     => 'Oleg Kobyakovskiy',
 	OLPA      => 'Oleg A. Paraschenko',
+	PERLOVER  => 'Perlover',
 	PIN       => 'Dmitri Popov',
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
