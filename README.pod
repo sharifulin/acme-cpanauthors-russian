@@ -35,7 +35,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<171> Russian CPAN authors:
+Now B<188> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -49,14 +49,17 @@ Now B<171> Russian CPAN authors:
 	AML       => 'Alexander Lourier',
 	ANDREIN   => 'Andrei Nossov',
 	ANDY      => 'Andrew Shitov',
+	ANIO      => 'Ангел Колев',
 	APLA      => 'Иван Бахчеев',
 	ARTO      => 'Artur Penttinen',
 	ASDEEVA   => 'Anastasiya Deeva',
 	ASVBR     => 'Alexey Sharafutdinov',
 	ATOURBIN  => 'Alexey Tourbin',
+	AVKHOZOV  => 'Andrey Khozov',
 	AVP       => 'Alexey V. Presnyakov',
 	AZJADFTRE => 'Павел Купцов',
 	BASHLOV   => 'Dmitry Bashlov',
+	BAT       => 'Тимур Бакеев',
 	BESSARABV => 'Иван Бессарабов',
 	BITTER    => 'Konstantin Vlasov',
 	BOSU      => 'Boris Sukholitko',
@@ -65,6 +68,7 @@ Now B<171> Russian CPAN authors:
 	CATONE    => 'Denis Pokataev',
 	CCCP      => 'Sivirinov Ivan',
 	CLEONTY   => 'Леонтий Чудинов',
+	CRUSOE    => 'Andrei V. Toutoukine',
 	DAM       => 'Дамян Иванов',
 	DARKNOS   => 'Sergey Nosenko',
 	DAVINCHI  => 'Pavel Boldin',
@@ -77,6 +81,7 @@ Now B<171> Russian CPAN authors:
 	DMITRYSOL => 'Dmitri Sologoubenko',
 	DMOW      => 'Dmitry Ovsyanko',
 	DPETROV   => 'Denis Petrov',
+	DRUXA     => 'Андрей Мищенко',
 	DSAMZA    => 'Dmitry Sagaev',
 	EAX       => 'Alexandr Alexeev',
 	EGOR      => 'Egor Korablev',
@@ -90,6 +95,7 @@ Now B<171> Russian CPAN authors:
 	GLORYBOX  => 'Sergey Sinkovskiy',
 	GOSHA     => 'Okunev Igor',
 	GRAYKOT   => 'Sergey Kotenko',
+	GREEN     => 'Evdokimov Denis',
 	GRIAN     => 'Анатолий Гришаев',
 	GRISHACE  => 'Gregory Belenky',
 	HAWKMOON  => 'Dmitry Sukhanov',
@@ -116,6 +122,9 @@ Now B<171> Russian CPAN authors:
 	KDOULEPOV => 'Konstantin Doulepov',
 	KES       => 'Eugen Konkov',
 	KEU       => 'Dmitry V. Kolvakh',
+	KHEDIN    => 'Konstantin S. Uvarin',
+	KILORK    => 'Alexander Korolyoff',
+	KIRILL    => 'Кирилл',
 	KIRILLM   => 'Кирилл Мязин',
 	KLIMKIN   => 'Alexey Klimkin',
 	KOSTYA    => 'kostya',
@@ -139,9 +148,11 @@ Now B<171> Russian CPAN authors:
 	MIT       => 'Dmitriy Dontsov',
 	MMCLERIC  => 'Vyacheslav Matjukhin',
 	MONS      => 'Mons Anderson',
+	MOTONAROL => 'Averyanov Ilya',
 	MPG       => 'Maxim  Grigoriev',
 	MRGRIPH   => 'Dmitriy V. Simonov',
 	NICKOLA   => 'Nickolay Kovalev',
+	NIXUS     => 'Никита Зубков',
 	NPLATONOV => 'Nickolay Platonov',
 	NRG       => 'Odintsov Pavel',
 	NUF       => 'Dmitry Smal',
@@ -149,6 +160,8 @@ Now B<171> Russian CPAN authors:
 	OLEG      => 'Oleg G',
 	OLEGSHER  => 'Oleg Sher',
 	OLEKO     => 'Oleg Kobyakovskiy',
+	OLPA      => 'Oleg A. Paraschenko',
+	PERLOVER  => 'Perlover',
 	PIN       => 'Dmitri Popov',
 	PLISCO    => 'Igor Plisco',
 	PRO       => 'Oleg Alexeenkov',
@@ -158,7 +171,9 @@ Now B<171> Russian CPAN authors:
 	RHIZO     => 'Dmitry Karabanov',
 	RIIKI     => 'Oleg Prokopyev',
 	ROWAA     => 'Олег Rowaa[SR13] В. Волков',
+	RSHADOW   => 'Николаев Роман',
 	RUDENKO   => 'Alexei Rudenko',
+	RUFF      => 'Ruslan N. Marchenko',
 	RUSAKOV   => 'Sergey Rusakov',
 	RUZ       => 'Руслан У. Закиров',
 	SAFRONOV  => 'Vladislav A. Safronov',
@@ -177,13 +192,14 @@ Now B<171> Russian CPAN authors:
 	SNEMAROV  => 'Sergei A. Nemarov',
 	SPECTRUM  => 'Черненко Эдуард Павлович',
 	SROMANOV  => 'Сергей Романов',
+	STEALTHY  => 'Oleg Nikitin',
 	STELLAR   => 'Andrei V. Shetuhin',
 	SWAJ      => 'Alexey Semenoff',
 	SWINED    => 'Алексей Александров',
 	SYBER     => 'Олег Пронин',
 	SYP       => 'Станислав Пусеп',
 	TADAM     => 'Yury Zavarin',
-	TECHCODE  => 'Aleksandar Petrović',
+	TEAK      => 'Sergey Redin',
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
@@ -192,6 +208,7 @@ Now B<171> Russian CPAN authors:
 	USTIANSKY => 'Vadim O. Ustiansky',
 	VAD       => 'Vadim Loginov',
 	VADIML    => 'Vadim Likhota (Вадим Лихота)',
+	VADZ      => 'Vadim Zeitlin',
 	VANY      => 'Ivan B. Serezhkin',
 	VASILUS   => 'Василий Волошин',
 	VERESC    => 'Peter Vereshagin',
@@ -207,9 +224,9 @@ Now B<171> Russian CPAN authors:
 	YKOSTYLEV => 'Yuri Kostylev',
 	YURAN     => 'Nevinitsin Yury',
 	ZMIJ      => 'Sergei A. Fedorov',
-	ZOFFIX    => 'Zoffix Znet'
+	ZOFFIX    => 'Zoffix Znet',
 
-And B<103> have PAUSE id, but they didn't upload any module:
+And B<87> have PAUSE id, but they didn't upload any module:
 
 	ADTIM     => 'Тимур Кондратьев',
 	ALBOVA    => 'Alexey Bovanenko',
@@ -217,16 +234,12 @@ And B<103> have PAUSE id, but they didn't upload any module:
 	AMANOKHIN => 'Alexey E.Manokhin',
 	AMONARCH  => 'Kirill Frolov',
 	ANDREY    => 'Andrey Kovbovich',
-	ANIO      => 'Ангел Колев',
-	AVKHOZOV  => 'Andrey Khozov',
 	AVOROBEY  => 'Anatoly Vorobey',
 	AZINGER   => 'Alexey Zinger',
-	BAT       => 'Тимур Бакеев',
 	BLINCHIK  => 'Vladislav',
 	BOCHAROV  => 'Бочаров Виктор',
 	BURNASH   => 'Anton Burnashev',
 	COOLMEN   => 'Александр Кузнецов',
-	CRUSOE    => 'Andrei V. Toutoukine',
 	CTAPUK    => 'Dmitriy Repin',
 	DEMIURG   => 'Алексей Вениаминович Мышкин',
 	DENIS     => 'Денис Терещенко',
@@ -234,7 +247,6 @@ And B<103> have PAUSE id, but they didn't upload any module:
 	DIMMA     => 'Vadim Suvorov',
 	DIVER     => 'Максим Дуюнов',
 	DMA       => 'Dmitri Alenitchev',
-	DRUXA     => 'Андрей Мищенко',
 	DSHAP     => 'Dmitry Shapovalov',
 	DSOKOL    => 'Denis Sokolovsky',
 	DVRYABOY  => 'Dmitriy Ryaboy',
@@ -243,7 +255,6 @@ And B<103> have PAUSE id, but they didn't upload any module:
 	GAMBURGER => 'Мякинин Тимур Алексеевич',
 	GERDLER   => 'Игорь Гердлер',
 	GNATYNA   => 'Александр А. Гнатына',
-	GREEN     => 'Evdokimov Denis',
 	GURETS    => 'Gurets Maxim',
 	HELLMAN   => 'Yuri A. Kabaenkov',
 	HORD      => 'Denis S Chuprunov',
@@ -257,8 +268,6 @@ And B<103> have PAUSE id, but they didn't upload any module:
 	JAAN      => 'Иван Валентиныч Муравьёв',
 	JUPITER   => 'Ivan Ponomarev',
 	KAZIMIROV => 'Dmitry Kazimirov',
-	KHEDIN    => 'Konstantin S. Uvarin',
-	KIRILL    => 'Кирилл',
 	KONSTANT  => 'Konstantin Antselovich',
 	KOT       => 'Konstantin Gerasimov',
 	KOTEROFF  => 'Dmitry Koteroff',
@@ -274,21 +283,16 @@ And B<103> have PAUSE id, but they didn't upload any module:
 	MISAKA    => 'Mishka Gorodnitzky',
 	MMK       => 'Мартин Маринов',
 	MOONRANBW => 'Anton V. Goldberg',
-	MOTONAROL => 'Averyanov Ilya',
 	MYAKININ  => 'Timur Myakinin',
 	NAB       => 'Nickolay Briginets',
 	NIKOLAS   => 'Николай Шуляковский',
-	NIXUS     => 'Никита Зубков',
 	OBOGREW   => 'Nikolay Kuznetsov',
 	OKOLOBOV  => 'Oleg Kolobov',
-	OLPA      => 'Oleg A. Paraschenko',
 	PROPANOID => 'Vladimir Skvortsov',
 	RAKESH    => 'Rakesh Alex',
 	RANGER    => 'Alexey Stroganov',
 	RASSIE    => 'Николай Прокошенко',
 	RAWFLUX   => 'Alexey Rybenko',
-	RSHADOW   => 'Николаев Роман',
-	RUFF      => 'Ruslan N. Marchenko',
 	SAPA      => 'Андрей Сапожников',
 	SAV       => 'Andrey Smorodin',
 	SCOUNDREL => 'Alexey Kovyrin',
@@ -298,13 +302,10 @@ And B<103> have PAUSE id, but they didn't upload any module:
 	SOKOL     => 'Pavel Sokol',
 	SOVA      => 'Vladimir Sovetov',
 	SPR       => 'Сергей Пригожий',
-	STEALTHY  => 'Oleg Nikitin',
 	STSAREV   => 'Sergei Tsarev',
 	SUHANOV   => 'Суханов Вячеслав',
-	TEAK      => 'Sergey Redin',
 	TED       => 'Ruslan (Ted) Kharitonov',
 	UJIN      => 'Зарецкий Евгений Петрович',
-	VADZ      => 'Vadim Zeitlin',
 	VERRENS   => 'Денис Афонин',
 	VICTORP   => 'Victor Pryazhnikov',
 	VLADISLAV => 'Sergey',
@@ -401,7 +402,7 @@ We are the Portuguese CPAN authors
 
 =item * L<Acme::CPANAuthors::Russian>
 
-We are the Russian CPAN authors 
+We are the Russian CPAN authors
 
 =item * L<Acme::CPANAuthors::Taiwanese>
 
@@ -447,7 +448,7 @@ We're CPAN Authors in The Geek House
 
 =item * L<Acme::CPANAuthors::Misanthrope>
 
-The CPAN authors who see into your soul with perfect clarity. 
+The CPAN authors who see into your soul with perfect clarity.
 
 =item * L<Acme::CPANAuthors::CodeRepos>
 
