@@ -168,7 +168,6 @@ use Acme::CPANAuthors::Register (
 	SYP       => 'Станислав Пусеп',
 	TADAM     => 'Yury Zavarin',
 	TEAK      => 'Sergey Redin',
-	TECHCODE  => 'Aleksandar Petrović',
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
@@ -236,7 +235,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<187> Russian CPAN authors:
+Now B<186> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -399,7 +398,6 @@ Now B<187> Russian CPAN authors:
 	SYP       => 'Станислав Пусеп',
 	TADAM     => 'Yury Zavarin',
 	TEAK      => 'Sergey Redin',
-	TECHCODE  => 'Aleksandar Petrović',
 	TMULEVICH => 'Sergey Tomoulevitch',
 	TOLIKL    => 'Anatoly K. Lasareff',
 	TOYVO     => 'Anton Tayanovskyy',
