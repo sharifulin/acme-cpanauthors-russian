@@ -40,7 +40,6 @@ use Acme::CPANAuthors::Register (
 	CLEONTY   => 'Леонтий Чудинов',
 	CRUSOE    => 'Andrei V. Toutoukine',
 	DAM       => 'Дамян Иванов',
-	DARKNOS   => 'Sergey Nosenko',
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
 	DESPAIR   => 'Walery Studennikov',
@@ -237,7 +236,7 @@ via email or RT and we will remove your name.
 
 =head1 CONTAINED AUTHORS
 
-Now B<188> Russian CPAN authors:
+Now B<187> Russian CPAN authors:
 
 	ABALAMA   => 'Lepenkov Sergey',
 	ABEL      => 'Anton Belousov',
@@ -272,7 +271,6 @@ Now B<188> Russian CPAN authors:
 	CLEONTY   => 'Леонтий Чудинов',
 	CRUSOE    => 'Andrei V. Toutoukine',
 	DAM       => 'Дамян Иванов',
-	DARKNOS   => 'Sergey Nosenko',
 	DAVINCHI  => 'Pavel Boldin',
 	DEEMON    => 'Dmitry Dorofeev',
 	DESPAIR   => 'Walery Studennikov',
