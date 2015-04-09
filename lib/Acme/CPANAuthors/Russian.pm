@@ -114,6 +114,7 @@ use Acme::CPANAuthors::Register (
 	MBASOV    => 'Михаил В. Басов',
 	MEETTYA   => 'Дмитрий Карпич',
 	MEPHIST   => 'Maxim Nikolenko',
+	MISHIN    => 'Николай Мишин',
 	MIT       => 'Dmitriy Dontsov',
 	MMCLERIC  => 'Vyacheslav Matjukhin',
 	MONS      => 'Mons Anderson',
