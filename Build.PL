@@ -20,7 +20,7 @@ my $builder = Module::Build->new(
 	},
 	meta_merge => {
 		resources => {
-			repository => 'http://github.com/sharifulin/acme-cpanauthors-russian/tree',
+			repository => 'http://github.com/sharifulin/acme-cpanauthors-russian',
 		},
 		keywords => [ 'CPAN', 'CPAN authors', 'Russian' ],
 	},
